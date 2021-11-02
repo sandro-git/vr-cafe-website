@@ -1,6 +1,6 @@
 <template>
   <div class="bg-gray-900 flex justify-center">
-    <GmapMap
+    <!-- <GmapMap
       :center="{ lat: 42.7070291246826, lng: 3.0186964909226233 }"
       :zoom="15"
       map-id="2dd0a1bd2ae97dc4"
@@ -15,7 +15,7 @@
         :draggable="false"
         @click="center = m.position"
       />
-    </GmapMap>
+    </GmapMap> -->
   </div>
 </template>
 

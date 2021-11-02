@@ -65,7 +65,7 @@
         SYNTHESIS VR OU AUTRE CHOSE
       </p>
     </div>
-    <Slider />
+    <Slider :games="games" />
     <Footer />
   </div>
 </template>
@@ -76,6 +76,13 @@ import arvi from '~/assets/ARVI.jpeg'
 import wanadev from '~/assets/wanadev.jpeg'
 
 export default {
+  async asyncData({ $content }) {
+    const games = await $content('games').fetch()
+
+    return {
+      games,
+    }
+  },
   data() {
     return { ubisoft, arvi, wanadev }
   },
