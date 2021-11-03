@@ -18,3 +18,16 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'markdown' }
       - { label: 'Image', name: 'image', widget: 'image' }
+  - name: 'arcade'
+    label: 'Arcade'
+    folder: 'content/arcade'
+    format: 'frontmatter'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'markdown' }
+      - { label: 'Image', name: 'image', widget: 'image' }
