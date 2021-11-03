@@ -10,4 +10,5 @@ description: Deux ou quatre joueurs font équipe et disposent de 60 minutes pour
   choisissant leur avatar parmi six personnages différents et peuvent le
   personnaliser avec des accessoires grecs antiques.
 image: https://wp-websites-cdn-origin.s3.eu-central-1.amazonaws.com/www.ubisoftescapegames.com/wp-content/uploads/2019/05/14231319/www.ubisoftescapegames.com-beyondmedusagate-atlas-1000x600.jpg
+editeur: ubisoft
 ---
