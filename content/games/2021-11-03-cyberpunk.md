@@ -4,10 +4,7 @@ date: 2021-11-03T16:41:39.153Z
 description: >-
   
 
-  Notre police lutte depuis des années contre des organisations criminelles et ne fait aucun prisonnier. La dernière opération majeure a fait tomber plusieurs têtes corrompues de la police. Mais de la gloire à a déchéance, il n'y a qu 'un pas. Vous avez été piégé et mis en prison pour de fausses accusations. Vos amis sont encore libres. Le plan d'évasion est prêt, et maintenant vous aurez besoin de tout le courage, toute la ruse et toute la chance que vous possédez pour recouvrer votre liberté et laver votre nom. Et poursuivre votre combat pour la justice.
-
-
-  2/6 joueurs niveau difficile
+  Nous sommes au début du 22ème siècle. La société s'est effondrée dans un contexte de progrès technologique rapide. Les gens transforment leur propre corps en profondeur. Les entreprises se disputent les données, qui sont devenues le bien le plus précieux sur le marché. Votre groupe, composé de cyborgs dotés de compétences spéciales, a décidé de voler quelques données rares dans les archives d'une société influente. En infiltrant le complexe sans être repéré, vous devez vous rendre aux archives et télécharger la mémoire de la pile. Mais cela ne sera pas facile. 2/6 joueurs niveau difficile
 image: /img/arvi_vrcovers_cyberpunk.webp
 editeur: arvi
 ---
