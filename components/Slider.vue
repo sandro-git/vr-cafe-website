@@ -11,7 +11,7 @@
       >
         <div class="swiper-content aspect-w-3 aspect-h-2">
           <img
-            class="object-cover shadow-lg rounded-lg h-20"
+            class="object-cover shadow-lg rounded-lg w-full"
             :src="game.image"
             :alt="game.title"
           />
