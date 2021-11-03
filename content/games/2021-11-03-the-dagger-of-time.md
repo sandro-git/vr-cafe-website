@@ -17,5 +17,5 @@ description: >-
 
 
   * Vous n'avez pas besoin d'avoir joué à l'un des précédents jeux Prince of Persia pour profiter de The Dagger Of Time.
-image: https://wp-websites-cdn-origin.s3.eu-central-1.amazonaws.com/www.ubisoftescapegames.com/wp-content/uploads/2020/02/14224313/www.ubisoftescapegames.com-logo-dagger-of-time.png
+image: /img/popdot_mechanical_tower.png
 ---
