@@ -1,5 +1,5 @@
 ---
-title: ESCAPE THE LOST PYRAMIDE
+title: ESCAPE THE LOST PYRAMID
 date: 2021-11-02T18:02:17.759Z
 description: >-
   Escape The Lost Pyramid est un escape game en réalité virtuelle, se déroulant
