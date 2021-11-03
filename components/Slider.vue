@@ -11,7 +11,7 @@
       >
         <div class="swiper-content aspect-w-3 aspect-h-2">
           <img
-            class="object-cover shadow-lg rounded-lg"
+            class="object-cover shadow-lg rounded-lg h-20"
             :src="game.image"
             :alt="game.title"
           />
@@ -85,7 +85,7 @@ export default {
       },
       // Configure other options. Not tested
       breakpoints: {
-        321: {
+        400: {
           slidesPerView: 3,
           spaceBetween: 20,
         },
