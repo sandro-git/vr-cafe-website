@@ -2,6 +2,7 @@
   <!-- This example requires Tailwind CSS v2.0+ -->
   <header class="bg-gray-900 lg:h-40 fixed w-full z-20 h-48">
     <nav class="max-w-7xl mx-auto h-40 lg:flex" aria-label="Top">
+      <!-- navigation ordi -->
       <div
         class="
           w-full
@@ -49,12 +50,12 @@
             </a>
           </div>
         </div>
+        <!-- logo -->
         <a href="#" class="flex justify-center">
           <span class="sr-only">Workflow</span>
           <img class="h-20" src="~assets/VRCAFE_LOGO_OK.png" alt="" />
         </a>
-        <div class="flex justify-center items-center">
-          <MenuIcon />
+        <div class="flex justify-center items-center flex-col lg:flex-row">
           <div class="ml-10 space-x-4 flex justify-center">
             <a
               href="#"
@@ -73,8 +74,10 @@
               >Réserver</a
             >
           </div>
+          <MenuIcon />
         </div>
       </div>
+      <!-- navigation mobile -->
       <div class="mb-4 py-4 flex flex-wrap justify-center space-x-6 lg:hidden">
         <a
           key="Solutions"
