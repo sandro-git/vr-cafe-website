@@ -2,7 +2,6 @@
   <!-- This example requires Tailwind CSS v2.0+ -->
   <header class="bg-gray-900 lg:h-40 fixed w-full z-20 h-48">
     <nav class="max-w-7xl mx-auto h-40 lg:flex" aria-label="Top">
-      <!-- navigation ordi -->
       <div
         class="
           w-full
@@ -15,6 +14,7 @@
           lg:border-none
         "
       >
+        <!-- navigation ordi -->
         <div class="pl-8 items-center hidden lg:block">
           <div class="hidden ml-2 space-x-8 lg:block">
             <a
@@ -76,40 +76,42 @@
           </div>
           <MenuIcon />
         </div>
-      </div>
-      <!-- navigation mobile -->
-      <div class="mb-4 py-4 flex flex-wrap justify-center space-x-6 lg:hidden">
-        <a
-          key="Solutions"
-          href="#"
-          class="text-base font-medium text-white hover:text-indigo-50"
+        <!-- navigation mobile -->
+        <div
+          class="mb-4 py-4 flex flex-wrap justify-center space-x-6 lg:hidden"
         >
-          Acceuil
-        </a>
+          <a
+            key="Solutions"
+            href="#"
+            class="text-base font-medium text-white hover:text-indigo-50"
+          >
+            Acceuil
+          </a>
 
-        <a
-          key="Pricing"
-          href="#"
-          class="text-base font-medium text-white hover:text-indigo-50"
-        >
-          Tarifs
-        </a>
+          <a
+            key="Pricing"
+            href="#"
+            class="text-base font-medium text-white hover:text-indigo-50"
+          >
+            Tarifs
+          </a>
 
-        <a
-          key="Docs"
-          href="#"
-          class="text-base font-medium text-white hover:text-indigo-50"
-        >
-          Arcade
-        </a>
+          <a
+            key="Docs"
+            href="#"
+            class="text-base font-medium text-white hover:text-indigo-50"
+          >
+            Arcade
+          </a>
 
-        <a
-          key="Company"
-          href="#"
-          class="text-base font-medium text-white hover:text-indigo-50"
-        >
-          Escape
-        </a>
+          <a
+            key="Company"
+            href="#"
+            class="text-base font-medium text-white hover:text-indigo-50"
+          >
+            Escape
+          </a>
+        </div>
       </div>
     </nav>
   </header>
