@@ -26,7 +26,8 @@
         EXCLUSIVITÉ ESCAPE GAME EN RÉALITE VIRTUELLE UBISOFT “IMMERSION TOTALE”
       </p>
     </div>
-    <Slider :background-url="ubisoft" />
+    <pre> {{ games.filter((game) => game.editeur === 'ubisoft') }} </pre>
+    <Slider :background-url="ubisoft" :games="games" />
     <div class="subtile">
       <p class="w-1/2 text-center text-xl text-gray-300 sm:text-2xl">
         EXCLUSIVITÉ ESCAPE GAME EN RÉALITE VIRTUELLE UBISOFT “IMMERSION TOTALE”
@@ -65,7 +66,7 @@
         SYNTHESIS VR OU AUTRE CHOSE
       </p>
     </div>
-    <Slider :games="games" />
+    <Slider />
     <Footer />
   </div>
 </template>
@@ -78,7 +79,6 @@ import wanadev from '~/assets/wanadev.jpeg'
 export default {
   async asyncData({ $content }) {
     const games = await $content('games').fetch()
-
     return {
       games,
     }
@@ -92,6 +92,11 @@ export default {
         { src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' },
       ],
     }
+  },
+  computed: {
+    ubisoftGames() {
+      return this.games.filter((game) => game.editeur === 'ubisoft')
+    },
   },
 }
 </script>

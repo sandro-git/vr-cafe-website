@@ -9,6 +9,7 @@
         :key="game.slug"
         class="swiper-slide border border-gray-900 rounded-lg space-y-4 p-4"
       >
+        <pre>{{ game.editeur }}</pre>
         <div class="swiper-content aspect-w-3 aspect-h-2">
           <img
             class="object-cover shadow-lg rounded-lg"
@@ -18,40 +19,6 @@
         </div>
         <div class="text-lg">
           <p class="text-gray-500 my-8">{{ game.description }}.</p>
-        </div>
-        <Button />
-      </div>
-      <div class="swiper-slide border border-gray-900 rounded-lg space-y-4 p-4">
-        <div class="swiper-content aspect-w-3 aspect-h-2">
-          <img
-            class="object-cover shadow-lg rounded-lg"
-            src="https://images.unsplash.com/photo-1505840717430-882ce147ef2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
-            alt=""
-          />
-        </div>
-        <div class="text-lg">
-          <p class="text-gray-500 my-8">
-            Ultricies massa malesuada viverra cras lobortis. Tempor orci hac
-            ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras.
-            Nisl dictum.
-          </p>
-        </div>
-        <Button />
-      </div>
-      <div class="swiper-slide border border-gray-900 rounded-lg space-y-4 p-4">
-        <div class="swiper-content aspect-w-3 aspect-h-2">
-          <img
-            class="object-cover shadow-lg rounded-lg"
-            src="https://images.unsplash.com/photo-1505840717430-882ce147ef2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
-            alt=""
-          />
-        </div>
-        <div class="text-lg">
-          <p class="text-gray-500 my-8">
-            Ultricies massa malesuada viverra cras lobortis. Tempor orci hac
-            ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras.
-            Nisl dictum.
-          </p>
         </div>
         <Button />
       </div>
