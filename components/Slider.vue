@@ -85,7 +85,7 @@ export default {
       },
       // Configure other options. Not tested
       breakpoints: {
-        400: {
+        429: {
           slidesPerView: 3,
           spaceBetween: 20,
         },
