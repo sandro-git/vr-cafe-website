@@ -18,4 +18,5 @@ description: >-
 
   * Vous n'avez pas besoin d'avoir joué à l'un des précédents jeux Prince of Persia pour profiter de The Dagger Of Time.
 image: /img/popdot_mechanical_tower.png
+editeur: ubisoft
 ---
