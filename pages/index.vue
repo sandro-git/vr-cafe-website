@@ -26,7 +26,6 @@
         EXCLUSIVITÉ ESCAPE GAME EN RÉALITE VIRTUELLE UBISOFT “IMMERSION TOTALE”
       </p>
     </div>
-    <pre> {{ ubisoftGames }} </pre>
     <Slider :background-url="ubisoft" :games="ubisoftGames" />
     <div class="subtile">
       <p class="w-1/2 text-center text-xl text-gray-300 sm:text-2xl">
@@ -40,7 +39,7 @@
         eligendi quos odit doloribus molestiae voluptatum.
       </p>
     </div>
-    <Slider :background-url="arvi" />
+    <Slider :background-url="arvi" :games="arviGames" />
     <h2
       class="
         sm:text-4xl
@@ -96,6 +95,9 @@ export default {
   computed: {
     ubisoftGames() {
       return this.games.filter((game) => game.editeur === 'ubisoft')
+    },
+    arviGames() {
+      return this.games.filter((game) => game.editeur === 'arvi')
     },
   },
 }
