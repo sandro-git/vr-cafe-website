@@ -26,8 +26,8 @@
         EXCLUSIVITÉ ESCAPE GAME EN RÉALITE VIRTUELLE UBISOFT “IMMERSION TOTALE”
       </p>
     </div>
-    <pre> {{ games.filter((game) => game.editeur === 'ubisoft') }} </pre>
-    <Slider :background-url="ubisoft" :games="games" />
+    <pre> {{ ubisoftGames }} </pre>
+    <Slider :background-url="ubisoft" :games="ubisoftGames" />
     <div class="subtile">
       <p class="w-1/2 text-center text-xl text-gray-300 sm:text-2xl">
         EXCLUSIVITÉ ESCAPE GAME EN RÉALITE VIRTUELLE UBISOFT “IMMERSION TOTALE”

@@ -9,7 +9,6 @@
         :key="game.slug"
         class="swiper-slide border border-gray-900 rounded-lg space-y-4 p-4"
       >
-        <pre>{{ game.editeur }}</pre>
         <div class="swiper-content aspect-w-3 aspect-h-2">
           <img
             class="object-cover shadow-lg rounded-lg"
