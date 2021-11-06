@@ -22,7 +22,7 @@
       EXPERIENCE ESCAPE GAME VIRTUEL
     </h2>
     <div class="subtile">
-      <p class="w-1/2 text-center text-xl text-gray-300 sm:text-2xl">
+      <p class="px-4 lg:w-1/2 text-center text-xl text-gray-300 sm:text-2xl">
         EXCLUSIVITÉ ESCAPE GAME EN RÉALITE VIRTUELLE UBISOFT “IMMERSION TOTALE”
       </p>
     </div>

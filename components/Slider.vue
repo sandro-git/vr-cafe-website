@@ -3,21 +3,30 @@
     class="swiper w-full h-full overflow-hidden relative bg-cover"
     :style="{ backgroundImage: `url(${backgroundUrl})` }"
   >
-    <div class="swiper-wrapper my-8">
+    <div class="swiper-wrapper flex h-60 my-8">
       <div
         v-for="game in games"
         :key="game.slug"
-        class="swiper-slide border border-gray-900 rounded-lg space-y-4 p-4"
+        class="
+          swiper-slide
+          border border-gray-900
+          bg-white
+          rounded-lg
+          space-y-4
+          p-4
+        "
       >
-        <div class="swiper-content aspect-w-3 aspect-h-2">
+        <div class="swiper-content aspect-w-3 aspect-h-2 overflow-hidden">
           <img
-            class="object-cover shadow-lg rounded-lg w-full"
+            class="object-cover shadow-lg h-64 rounded-lg w-full"
             :src="game.image"
             :alt="game.title"
           />
         </div>
         <div class="text-lg">
-          <p class="text-gray-500 my-8">{{ game.description }}.</p>
+          <p class="text-gray-500 my-8 h-40 hidden lg:block overflow-hidden">
+            {{ game.description }}.
+          </p>
         </div>
         <Button />
       </div>
@@ -26,8 +35,8 @@
     <div class="swiper-pagination"></div>
 
     <!-- If navigation buttons are needed -->
-    <div class="swiper-button-prev text-gray-900"></div>
-    <div class="swiper-button-next"></div>
+    <!-- <div class="swiper-button-prev swiper-button-hidden text-gray-900"></div>
+    <div class="swiper-button-next swiper-button-hidden"></div> -->
   </div>
 </template>
 
@@ -80,6 +89,7 @@ export default {
       },
       // Navigation arrows if needed
       navigation: {
+        hiddenClass: '.swiper-button-hidden',
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },

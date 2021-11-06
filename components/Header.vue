@@ -1,15 +1,15 @@
 <template>
   <!-- This example requires Tailwind CSS v2.0+ -->
   <header class="bg-gray-900 lg:h-40 fixed w-full z-20">
-    <nav class="max-w-7xl mx-auto lg:flex" aria-label="Top">
+    <nav class="mx-auto lg:flex lg:justify-center" aria-label="Top">
       <div
         class="
+          w-full
           py-6
           grid grid-cols-2 grid-rows-2
-          lg:grid lg:grid-cols-3 lg:grid-rows-1
+          lg:grid-rows-1 lg:grid lg:grid-cols-3
           items-center
           justify-between
-          border-b border-indigo-500
           lg:border-none
           bg-gray-900
         "
@@ -19,46 +19,10 @@
           <span class="sr-only">Workflow</span>
           <img class="h-30" src="~assets/VRCAFE_LOGO_OK.png" alt="" />
         </a>
-        <!-- navigation ordi -->
-        <div class="pl-8 items-center hidden lg:block">
-          <div class="hidden ml-2 space-x-8 lg:block">
-            <a
-              key="Solutions"
-              href="#"
-              class="text-base font-medium text-white hover:text-indigo-50"
-            >
-              Acceuil
-            </a>
-
-            <a
-              key="Pricing"
-              href="#tarifs"
-              class="text-base font-medium text-white hover:text-indigo-50"
-            >
-              Tarifs
-            </a>
-
-            <a
-              key="Docs"
-              href="#"
-              class="text-base font-medium text-white hover:text-indigo-50"
-            >
-              Arcade
-            </a>
-
-            <a
-              key="Company"
-              href="#"
-              class="text-base font-medium text-white hover:text-indigo-50"
-            >
-              Escape
-            </a>
-          </div>
-        </div>
         <!-- bouton réserver -->
-        <div class="flex justify-center">
+        <div class="flex justify-center lg:col-start-3">
           <a
-            href="#"
+            href="https://vrcafe.regiondo.fr/categories?_ga=2.118185167.797751205.1636194556-65640453.1636194556"
             class="
               inline-block
               bg-white
@@ -75,8 +39,15 @@
           >
         </div>
         <!-- navigation mobile -->
-        <div class="col-span-2 flex flex-col items-center">
-          <div class="mb-4 py-4 flex space-x-6 lg:hidden">
+        <div
+          class="
+            col-span-2
+            lg:col-span-1 lg:col-start-2 lg:row-start-1
+            flex flex-col
+            items-center
+          "
+        >
+          <div class="mb-4 py-4 flex space-x-6">
             <!-- acceuil -->
             <a
               key="Solutions"
