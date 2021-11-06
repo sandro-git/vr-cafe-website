@@ -10,6 +10,9 @@
     <li class="">
       <img src="~assets/Instagram.png" alt="facebook logo" class="h-8" />
     </li>
+    <li class="">
+      <img src="~assets/Tripadvisor.png" alt="facebook logo" class="h-8" />
+    </li>
   </ul>
 </template>
 

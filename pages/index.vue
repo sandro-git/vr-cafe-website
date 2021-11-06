@@ -2,7 +2,7 @@
   <div>
     <Header />
     <img
-      class="text-center pt-44 lg:pt-40"
+      class="text-center pt-64 lg:pt-40"
       src="~assets/header.jpg"
       alt="VR headset"
     />

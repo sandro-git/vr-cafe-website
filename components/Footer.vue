@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-gray-900 lg:h-40 w-full z-20 h-48">
+  <footer class="bg-gray-900 lg:h-40 w-full z-20 h-48 overflow-hidden">
     <div class="max-w-7xl mx-auto h-40 lg:flex" aria-label="Top">
       <div
         class="
