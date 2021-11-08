@@ -51,7 +51,7 @@
             <!-- acceuil -->
             <a
               key="Solutions"
-              href="#"
+              href="/"
               class="text-base font-medium text-white hover:text-indigo-50"
             >
               Acceuil
@@ -59,7 +59,7 @@
             <!-- tarifs -->
             <a
               key="Pricing"
-              href="#"
+              href="#price"
               class="text-base font-medium text-white hover:text-indigo-50"
             >
               Tarifs
@@ -67,7 +67,7 @@
             <!-- arcade -->
             <a
               key="Docs"
-              href="#"
+              href="#arcade"
               class="text-base font-medium text-white hover:text-indigo-50"
             >
               Arcade
@@ -75,7 +75,7 @@
             <!-- escape -->
             <a
               key="Company"
-              href="#"
+              href="#escape"
               class="text-base font-medium text-white hover:text-indigo-50"
             >
               Escape

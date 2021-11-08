@@ -8,6 +8,7 @@
     />
     <Prices />
     <h2
+      id="escape"
       class="
         sm:text-4xl
         lg:text-5xl
@@ -21,7 +22,7 @@
     >
       EXPERIENCE ESCAPE GAME VIRTUEL
     </h2>
-    <div class="subtile">
+    <div id="escape" class="subtile">
       <p class="px-4 lg:w-1/2 text-center text-xl text-gray-300 sm:text-2xl">
         EXCLUSIVITÉ ESCAPE GAME EN RÉALITE VIRTUELLE UBISOFT “IMMERSION TOTALE”
       </p>
@@ -54,7 +55,7 @@
     >
       EXPERIENCE ARCADE VR
     </h2>
-    <div class="subtile">
+    <div id="arcade" class="subtile">
       <p class="w-1/2 text-center text-xl text-gray-300 sm:text-2xl">
         EXCLUSIVITÉ WANADEV LES STUDIOS FRANCAIS
       </p>
