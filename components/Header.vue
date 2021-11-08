@@ -22,7 +22,7 @@
         <!-- bouton réserver -->
         <div class="flex justify-center lg:col-start-3">
           <a
-            href="https://vrcafe.regiondo.fr/categories?_ga=2.118185167.797751205.1636194556-65640453.1636194556"
+            href="reservation.html"
             class="
               inline-block
               bg-white

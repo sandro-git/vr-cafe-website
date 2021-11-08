@@ -70,6 +70,7 @@ export default {
       slidesPerView: 1,
       keyboard: true,
       grabCursor: true,
+      spaceBetween: 20,
 
       // @see https://swiperjs.com/swiper-api#parameters
       direction: 'horizontal',
