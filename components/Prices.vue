@@ -437,7 +437,7 @@
                   <div class="mt-10">
                     <div class="rounded-lg shadow-md">
                       <a
-                        href="#"
+                        href="reservation.escape.html"
                         class="
                           block
                           w-full
