@@ -1,8 +1,9 @@
 ---
 title: SYNTH RIDERS
 date: 2021-11-09T10:47:27.977Z
-description: Synth Riders is a freestyle dancing VR rhythm alternative with
-  official custom song support. Lose yourself in the incredible music, meet
-  friends in the multiplayer, and get a good workout in the process!
+description: Synth Riders est uen alternative rythmique VR dansante freestyle
+  avec prise en charge officielle des chansons personnlisées. Vous meme dans la
+  musique incroyable, vous rencontrez ds amis dans le multijoueurs et faites une
+  bonne seance d'entrainement .
 image: /img/header.jpeg
 ---
