@@ -1,8 +1,9 @@
 ---
 title: TRAFFIC JAMS
 date: 2021-11-09T10:51:32.819Z
-description: Starting out on a quiet corner in a small town, job offers start
-  pouring in from around the globe. Guide rude pedestrians, impatient drivers,
-  and the occasional meteorite along before road rage strikes.
+description: En commencant dans un coin calme dans une petite ville, les offres
+  d'emploi commencent a affluer du monde entier. Guidez les pietons grossiers,
+  les conducteurs impatients et la meteorite occassionelle avant la rage sur la
+  route.
 image: /img/header.jpeg
 ---
