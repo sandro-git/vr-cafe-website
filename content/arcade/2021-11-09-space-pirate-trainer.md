@@ -1,8 +1,8 @@
 ---
 title: SPACE PIRATE TRAINER
 date: 2021-11-09T10:46:10.381Z
-description: Space Pirate Trainer is the official trainer for wannabe space
-  pirates in VR. Pick up your blasters, put on your sneakers, and dance your way
-  into the Space Pirate Trainer hall of fame.
+description: Space Pirate Trainer est l'entraineur officiel des aspirants
+  pirates de l'espace en réalite virtuelle.Ramassez vos blasters.Enfilez vos
+  baskets et dansez dans le temple de la renomméé de space pirate trainer.
 image: /img/header.jpeg
 ---
