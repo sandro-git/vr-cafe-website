@@ -66,7 +66,7 @@
         SYNTHESIS VR OU AUTRE CHOSE
       </p>
     </div>
-    <Slider />
+    <Slider :games="arcade" />
     <Footer />
   </div>
 </template>
@@ -79,8 +79,10 @@ import wanadev from '~/assets/wanadev.jpeg'
 export default {
   async asyncData({ $content }) {
     const games = await $content('games').fetch()
+    const arcade = await $content('arcade').fetch()
     return {
       games,
+      arcade,
     }
   },
   data() {

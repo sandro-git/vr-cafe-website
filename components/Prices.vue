@@ -186,7 +186,7 @@
                     <div class="mt-8">
                       <div class="rounded-lg shadow-md">
                         <a
-                          href="#"
+                          href="revervation.arcade.html"
                           class="
                             block
                             w-full
