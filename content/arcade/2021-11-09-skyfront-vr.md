@@ -1,11 +1,7 @@
 ---
 title: SKYFRONT VR
 date: 2021-11-09T10:43:58.167Z
-description: >-
-  Skyfront VR is a team-based multiplayer FPS where the best warriors team up in
-  zero-gravity battle arenas to determine the Ultimate Champion.
-
-
-  This is what you get with Skyfront VR:
+description: Skyfront VR est un FPS multijoueur en equipe ou les meilleurs
+  guerriers font equipe dans une bataille sans gravité.
 image: /img/header.jpeg
 ---
