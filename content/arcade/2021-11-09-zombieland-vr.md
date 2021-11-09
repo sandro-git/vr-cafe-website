@@ -1,9 +1,9 @@
 ---
 title: ZOMBIELAND VR
 date: 2021-11-09T10:52:42.556Z
-description: "Nominated for 'VR Game of the Year' at the 2021 VR Awards,
-  Zombieland VR: Headshot Fever combines arcade lightgun games with racing
-  mechanics. Headshot combos slow the clock, meaning the most precise shooter is
-  the fastest - challenge the leaderboards with skill, speed, and accuracy."
+description: Nominé pour le jeu 'VR Game of the Year' at the 2021 VR Awards
+  combiné de jeux d'arcade et de mécanique de courses.Les combos Headshot
+  ralentissent l'horloge, ce qui signifie que le jeu de tir et le plus précis et
+  le plus rapide défiez les classements avec comptence vitesse et precision.
 image: /img/header.jpeg
 ---
