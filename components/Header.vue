@@ -1,6 +1,6 @@
 <template>
   <!-- This example requires Tailwind CSS v2.0+ -->
-  <header class="bg-gray-900 lg:h-40 fixed w-full z-20">
+  <header class="bg-gray-900 lg:h-40 w-full z-20">
     <nav class="mx-auto lg:flex lg:justify-center" aria-label="Top">
       <div
         class="

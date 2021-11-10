@@ -1,11 +1,7 @@
 <template>
   <div>
     <Header />
-    <img
-      class="text-center pt-64 lg:pt-40"
-      src="~assets/header.jpg"
-      alt="VR headset"
-    />
+    <img class="text-center" src="~assets/header.jpg" alt="VR headset" />
     <Prices />
     <h2
       id="escape"
