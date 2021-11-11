@@ -23,20 +23,19 @@
         EXCLUSIVITÉ ESCAPE GAME EN RÉALITE VIRTUELLE UBISOFT “IMMERSION TOTALE”
       </p>
     </div>
-    <Slider :background-url="ubisoft" :games="ubisoftGames" />
+    <Slider class="bg-rose" :games="ubisoftGames" />
     <div class="subtile">
       <p class="w-1/2 text-center text-xl text-gray-300 sm:text-2xl">
         EXCLUSIVITÉ ESCAPE GAME EN RÉALITE VIRTUELLE UBISOFT “IMMERSION TOTALE”
       </p>
     </div>
-    <Slider class="bg-gray-900" />
     <div class="subtile">
       <p class="w-1/2 text-center text-xl text-gray-300 sm:text-2xl">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit numquam
         eligendi quos odit doloribus molestiae voluptatum.
       </p>
     </div>
-    <Slider :background-url="arvi" :games="arviGames" />
+    <Slider class="bg-turquoise" :games="arviGames" />
     <h2
       class="
         sm:text-4xl

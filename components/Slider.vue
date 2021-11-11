@@ -1,20 +1,10 @@
 <template>
-  <div
-    class="swiper w-full h-full overflow-hidden relative bg-cover"
-    :style="{ backgroundImage: `url(${backgroundUrl})` }"
-  >
+  <div class="swiper w-full h-full overflow-hidden relative bg-cover">
     <div class="swiper-wrapper flex h-60 my-8">
       <div
         v-for="game in games"
         :key="game.slug"
-        class="
-          swiper-slide
-          border border-gray-900
-          bg-white
-          rounded-lg
-          space-y-4
-          p-4
-        "
+        class="swiper-slide space-y-4 p-4"
       >
         <div class="swiper-content aspect-w-3 aspect-h-2 overflow-hidden">
           <img
@@ -24,7 +14,7 @@
           />
         </div>
         <div class="text-lg">
-          <p class="text-gray-500 my-8 h-40 hidden lg:block overflow-hidden">
+          <p class="text-gray-900 my-8 h-40 hidden lg:block overflow-hidden">
             {{ game.description }}.
           </p>
         </div>
