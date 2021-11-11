@@ -25,12 +25,12 @@
     </div>
     <Slider class="bg-rose" :games="ubisoftGames" />
     <div class="subtile">
-      <p class="w-1/2 text-center text-xl text-gray-300 sm:text-2xl">
+      <p class="lg:w-1/2 text-center text-xl text-gray-300 sm:text-2xl">
         EXCLUSIVITÉ ESCAPE GAME EN RÉALITE VIRTUELLE UBISOFT “IMMERSION TOTALE”
       </p>
     </div>
     <div class="subtile">
-      <p class="w-1/2 text-center text-xl text-gray-300 sm:text-2xl">
+      <p class="lg:w-1/2 text-center text-xl text-gray-300 sm:text-2xl">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit numquam
         eligendi quos odit doloribus molestiae voluptatum.
       </p>

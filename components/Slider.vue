@@ -69,11 +69,11 @@ export default {
       modules: [Navigation, Pagination, Autoplay],
 
       // Pagination if needed
-      pagination: {
-        el: '.swiper-pagination',
-        type: 'bullets',
-        clickable: true,
-      },
+      // pagination: {
+      //   el: '.swiper-pagination',
+      //   type: 'custom',
+      //   clickable: true,
+      // },
       // Autoplay if needed
       autoplay: {
         delay: 3000,

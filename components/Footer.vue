@@ -1,11 +1,11 @@
 <template>
-  <footer class="bg-gray-900 lg:h-40 w-full z-20 h-48 overflow-hidden">
-    <div class="max-w-7xl mx-auto h-40 lg:flex" aria-label="Top">
+  <footer class="bg-gray-900 w-full z-20">
+    <div class="max-w-7xl mx-auto lg:flex" aria-label="Top">
       <div
         class="
           w-full
           py-6
-          grid grid-cols-2 grid-rows-1
+          grid grid-cols-2 grid-rows-2
           lg:grid lg:grid-cols-3 lg:grid-rows-1
           items-center
           justify-between
@@ -13,54 +13,15 @@
           lg:border-none
         "
       >
-        <div class="items-center hidden lg:block">
-          <div class="hidden ml-2 space-x-8 lg:block">
-            <a
-              key="Solutions"
-              href="#"
-              class="text-base font-medium text-white hover:text-indigo-50"
-            >
-              2 rue du pilou 66140 canet en rousillon
-            </a>
-
-            <a
-              key="Pricing"
-              href="tel:+33678218135"
-              class="text-base font-medium text-white hover:text-indigo-50"
-            >
-              Tél: 0671410677
-            </a>
-            <div class="flex justify-evenly">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 text-white"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                />
-              </svg>
-              <a
-                key="Docs"
-                href="mailto:contact@vr-cafe.fr"
-                class="text-base font-medium text-white hover:text-indigo-50"
-              >
-                contact@vr-cafe.fr
-              </a>
-            </div>
-          </div>
-        </div>
-        <a href="#" class="flex justify-center">
+        <!-- logo -->
+        <a href="#" class="flex justify-center lg:col-start-2">
           <span class="sr-only">Workflow</span>
-          <img class="h-20" src="~assets/VRCAFE_LOGO_OK.png" alt="" />
+          <img class="h-14" src="~assets/VRCAFE_LOGO_OK.png" alt="" />
         </a>
-        <div class="flex justify-center items-center">
-          <MenuIcon />
+        <!-- reseau sociaux -->
+        <MenuIcon class="lg:col-start-3 justify-center" />
+        <!-- bouton réserver -->
+        <!-- <div class="flex justify-center items-center">
           <div class="ml-10 space-x-4 flex justify-center">
             <a
               href="#"
@@ -79,32 +40,87 @@
               >Réserver</a
             >
           </div>
+        </div> -->
+        <!-- adresse etc... -->
+        <div
+          class="
+            ml-2
+            flex flex-col
+            items-center
+            col-span-2
+            lg:col-span-1 lg:col-start-1 lg:row-start-1
+          "
+        >
+          <div class="mt-4">
+            <a
+              key="Solutions"
+              href="https://g.page/vrcafe66?share"
+              class="
+                text-base text-center
+                font-medium
+                text-white
+                hover:text-indigo-50
+                flex
+                items-center
+              "
+              target="_blank"
+            >
+              <img
+                src="~assets/location-arrow-solid.svg"
+                alt="location icon"
+                class="h-6 w-6 mr-4"
+              />
+              2 rue du pilou 66140 <br />
+              canet en rousillon
+            </a>
+          </div>
+          <div class="mt-4">
+            <a
+              key="Pricing"
+              href="tel:+33678218135"
+              class="
+                text-base
+                font-medium
+                text-white
+                hover:text-indigo-50
+                pl-4
+                flex
+                items-center
+              "
+              target="_blank"
+            >
+              <img
+                src="~assets/phone-solid.svg"
+                class="h-6 w-6 mr-4"
+                alt="phone icon"
+              />
+              06 71 41 06 77
+            </a>
+          </div>
+          <div class="mt-4">
+            <a
+              key="Docs"
+              href="mailto:contact@vr-cafe.fr"
+              class="
+                text-base
+                font-medium
+                text-white
+                hover:text-indigo-50
+                pl-4
+                flex
+                items-center
+              "
+              target="_blank"
+            >
+              <img
+                src="~assets/envelope-regular.svg"
+                alt="envelope icon"
+                class="h-6 w-6 mr-4"
+              />
+              contact@vr-cafe.fr
+            </a>
+          </div>
         </div>
-      </div>
-      <div class="mb-4 py-4 flex flex-wrap justify-center space-x-6 lg:hidden">
-        <a
-          key="Solutions"
-          href="#"
-          class="text-base font-medium text-white hover:text-indigo-50"
-        >
-          Adresse
-        </a>
-
-        <a
-          key="Pricing"
-          href="#"
-          class="text-base font-medium text-white hover:text-indigo-50"
-        >
-          TElephone
-        </a>
-
-        <a
-          key="Docs"
-          href="#"
-          class="text-base font-medium text-white hover:text-indigo-50"
-        >
-          mail contact
-        </a>
       </div>
     </div>
     <GoogleMap />

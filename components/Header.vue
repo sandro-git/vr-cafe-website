@@ -15,9 +15,13 @@
         "
       >
         <!-- logo -->
-        <a href="#" class="flex justify-center h-20">
+        <a href="/" class="flex justify-center h-20">
           <span class="sr-only">Workflow</span>
-          <img class="h-30" src="~assets/VRCAFE_LOGO_OK.png" alt="" />
+          <img
+            class="h-14 sm:h-30"
+            src="~assets/VRCAFE_LOGO_OK.png"
+            alt="logo vr café"
+          />
         </a>
         <!-- bouton réserver -->
         <div class="flex justify-center lg:col-start-3">
