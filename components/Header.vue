@@ -15,13 +15,9 @@
         "
       >
         <!-- logo -->
-        <a href="/" class="flex justify-center h-20">
+        <a href="/" class="flex justify-center h-14 lg:h-24">
           <span class="sr-only">Workflow</span>
-          <img
-            class="h-14 sm:h-30"
-            src="~assets/VRCAFE_LOGO_OK.png"
-            alt="logo vr café"
-          />
+          <img class="" src="~assets/VRCAFE_LOGO_OK.png" alt="logo vr café" />
         </a>
         <!-- bouton réserver -->
         <div class="flex justify-center lg:col-start-3">
@@ -35,6 +31,7 @@
               border border-transparent
               rounded-md
               text-base
+              lg:text-2xl
               font-medium
               text-indigo-600
               hover:bg-indigo-50
@@ -56,7 +53,13 @@
             <a
               key="Solutions"
               href="/"
-              class="text-base font-medium text-white hover:text-indigo-50"
+              class="
+                text-base
+                lg:text-2xl
+                font-medium
+                text-white
+                hover:text-indigo-50
+              "
             >
               Acceuil
             </a>
@@ -64,7 +67,13 @@
             <a
               key="Pricing"
               href="#price"
-              class="text-base font-medium text-white hover:text-indigo-50"
+              class="
+                text-base
+                lg:text-2xl
+                font-medium
+                text-white
+                hover:text-indigo-50
+              "
             >
               Tarifs
             </a>
@@ -72,7 +81,13 @@
             <a
               key="Docs"
               href="#arcade"
-              class="text-base font-medium text-white hover:text-indigo-50"
+              class="
+                text-base
+                lg:text-2xl
+                font-medium
+                text-white
+                hover:text-indigo-50
+              "
             >
               Arcade
             </a>
@@ -80,7 +95,13 @@
             <a
               key="Company"
               href="#escape"
-              class="text-base font-medium text-white hover:text-indigo-50"
+              class="
+                text-base
+                lg:text-2xl
+                font-medium
+                text-white
+                hover:text-indigo-50
+              "
             >
               Escape
             </a>
