@@ -26,7 +26,10 @@
         </p>
       </div>
     </div>
-    <Slider class="bg-rose" :games="ubisoftGames" />
+    <Slider
+      class="bg-gradient-to-r from-rose via-violet-fonce to-turquoise"
+      :games="ubisoftGames"
+    />
     <div class="bg-gray-900 py-12">
       <div class="subtile pb-8">
         <p class="lg:w-1/2 text-center text-xl text-gray-300 sm:text-2xl">
@@ -41,7 +44,10 @@
         </p>
       </div>
     </div>
-    <Slider class="bg-turquoise" :games="arviGames" />
+    <Slider
+      class="bg-gradient-to-r from-rose via-violet-fonce to-turquoise"
+      :games="arviGames"
+    />
     <div class="bg-gray-900 py-12">
       <h2
         class="
@@ -62,13 +68,19 @@
         </p>
       </div>
     </div>
-    <Slider :background-url="wanadev" />
+    <Slider
+      class="bg-gradient-to-r from-rose via-violet-fonce to-turquoise"
+      :background-url="wanadev"
+    />
     <div class="subtile bg-gray-900 py-12">
       <p class="lg:w-1/2 text-center text-xl text-gray-300 sm:text-2xl">
         SYNTHESIS VR
       </p>
     </div>
-    <Slider :games="arcade" />
+    <Slider
+      class="bg-gradient-to-r from-rose via-violet-fonce to-turquoise"
+      :games="arcade"
+    />
     <Footer />
   </div>
 </template>
