@@ -24,6 +24,18 @@ collections:
           widget: 'select',
           options: ['ubisoft', 'arvi', 'wanadev'],
         }
+      - {
+          label: 'Difficultée',
+          name: 'difficulte',
+          widget: 'select',
+          options: ['easy', 'medium', 'hard'],
+        }
+        - {
+          label: 'Nombre De Joueur',
+          name: 'nbrDeJoueur',
+          widget: 'select',
+          options: ['1', 2', '3','4','5','6'],
+        }
   - name: 'arcade'
     label: 'Arcade'
     folder: 'content/arcade'
@@ -42,4 +54,10 @@ collections:
           name: 'editeur',
           widget: 'select',
           options: ['wanadev', 'synthesys'],
+        }
+      - {
+          label: 'Nombre De Joueur',
+          name: 'nbrDeJoueur',
+          widget: 'select',
+          options: ['1', 2', '3','4','5','6','7','8'],
         }
