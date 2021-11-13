@@ -14,27 +14,27 @@ collections:
     editor:
       preview: false
     fields:
-       - { label: 'Title', name: 'title', widget: 'string' }
-       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-       - { label: 'Description', name: 'description', widget: 'markdown' }
-       - { label: 'Image', name: 'image', widget: 'image' }
-       - {
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'markdown' }
+      - { label: 'Image', name: 'image', widget: 'image' }
+      - {
           label: 'Editeur',
           name: 'editeur',
           widget: 'select',
           options: ['ubisoft', 'arvi', 'wanadev'],
         }
-       - {
+      - {
           label: 'Difficultée',
           name: 'difficulte',
           widget: 'select',
           options: ['easy', 'medium', 'hard'],
         }
-        - {
+      - {
           label: 'Nombre De Joueur',
           name: 'nbrDeJoueur',
           widget: 'select',
-          options: ['1', 2', '3','4','5','6'],
+          options: ['1', 2', '3', '4', '5', '6'],
         }
   - name: 'arcade'
     label: 'Arcade'
@@ -59,7 +59,6 @@ collections:
           label: 'Nombre De Joueur',
           name: 'nbrDeJoueur',
           widget: 'select',
-          options: ['1', 2', '3','4','5','6','7','8'],
+          options: ['1', 2', '3', '4', '5', '6', '7', '8'],
         }
       - { label: 'Vidéo', name: 'video', widget: 'string' }
-
