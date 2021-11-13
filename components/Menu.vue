@@ -11,7 +11,7 @@
 export default {}
 </script>
 
-<style>
+<style scoped>
 li {
   @apply mx-4;
 }

@@ -77,10 +77,16 @@
         SYNTHESIS VR
       </p>
     </div>
-    <Slider
-      class="bg-gradient-to-r from-rose via-violet-fonce to-turquoise"
-      :games="arcade"
-    />
+
+    <div class="bg-gradient-to-r from-rose via-violet-fonce to-turquoise py-12">
+      <ul class="grid grid-cols-4 gap-2">
+        <li v-for="game in arcade" :key="game.id">
+          <a href="">
+            <img :src="game.image" :alt="game.title" class="rounded-2xl"
+          /></a>
+        </li>
+      </ul>
+    </div>
     <Footer />
   </div>
 </template>
@@ -120,7 +126,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .subtile {
   @apply flex w-full justify-center items-center;
 }
