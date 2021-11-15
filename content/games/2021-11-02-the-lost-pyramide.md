@@ -10,6 +10,8 @@ description: >-
 image: /img/ubisoft-escape-games-090201.webp
 editeur: ubisoft
 difficulte: easy
-nbrDeJoueur: 2'
+nbrDeJoueur:
+  - "2"
+  - "4"
 ---
 LE CORPS DU MESSAGE JE NE SAIS PAS SI JE VAIS LE GARDER
