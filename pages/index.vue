@@ -77,7 +77,7 @@
         SYNTHESIS VR
       </p>
     </div>
-    <Masonry :games="games" />
+    <Masonry :games="arcade" />
     <!-- <div class="bg-gradient-to-r from-rose via-violet-fonce to-turquoise py-12">
       <ul class="grid grid-cols-5 gap-2">
         <li v-for="game in arcade" :key="game.id">

@@ -7,11 +7,13 @@
         class="swiper-slide space-y-4 p-4"
       >
         <div class="swiper-content aspect-w-3 aspect-h-2 overflow-hidden">
-          <img
-            class="object-cover shadow-lg h-64 rounded-lg w-full"
-            :src="game.image"
-            :alt="game.title"
-          />
+          <nuxt-link :to="game.slug">
+            <img
+              class="object-cover shadow-lg h-64 rounded-lg w-full"
+              :src="game.image"
+              :alt="game.title"
+            />
+          </nuxt-link>
         </div>
         <div class="text-lg">
           <p class="text-gray-900 my-8 h-40 hidden lg:block overflow-hidden">

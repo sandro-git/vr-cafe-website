@@ -6,7 +6,9 @@
   >
     <template #default="{ item }">
       <div class="item">
-        <img :src="item.image" alt="item.title" />
+        <nuxt-link :to="item.slug">
+          <img :src="item.image" alt="item.title" />
+        </nuxt-link>
       </div>
     </template>
   </vue-masonry-wall>
