@@ -50,9 +50,9 @@
         >
           <div class="mb-4 py-4 flex space-x-6">
             <!-- acceuil -->
-            <a
+            <nuxt-link
               key="Solutions"
-              href="/"
+              to="/"
               class="
                 text-base
                 lg:text-2xl
@@ -62,11 +62,11 @@
               "
             >
               Acceuil
-            </a>
+            </nuxt-link>
             <!-- tarifs -->
-            <a
+            <nuxt-link
               key="Pricing"
-              href="#price"
+              to="#price"
               class="
                 text-base
                 lg:text-2xl
@@ -76,25 +76,11 @@
               "
             >
               Tarifs
-            </a>
-            <!-- arcade -->
-            <a
-              key="Docs"
-              href="#arcade"
-              class="
-                text-base
-                lg:text-2xl
-                font-medium
-                text-white
-                hover:text-indigo-50
-              "
-            >
-              Arcade
-            </a>
+            </nuxt-link>
             <!-- escape -->
-            <a
+            <nuxt-link
               key="Company"
-              href="#escape"
+              to="#escape"
               class="
                 text-base
                 lg:text-2xl
@@ -104,8 +90,23 @@
               "
             >
               Escape
-            </a>
+            </nuxt-link>
+            <!-- arcade -->
+            <nuxt-link
+              key="Docs"
+              to="#arcade"
+              class="
+                text-base
+                lg:text-2xl
+                font-medium
+                text-white
+                hover:text-indigo-50
+              "
+            >
+              Arcade
+            </nuxt-link>
           </div>
+
           <MenuIcon />
         </div>
       </div>
