@@ -36,6 +36,13 @@ collections:
           widget: 'select',
           options: ['1', 2', '3', '4', '5', '6'],
         }
+      - {
+          label: Radio select,
+          name: radio_select,
+          widget: inline-select,
+          options: ['left', 'center', 'right'],
+        }
+
   - name: 'arcade'
     label: 'Arcade'
     folder: 'content/arcade'

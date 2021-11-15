@@ -77,16 +77,16 @@
         SYNTHESIS VR
       </p>
     </div>
-
-    <div class="bg-gradient-to-r from-rose via-violet-fonce to-turquoise py-12">
-      <ul class="grid grid-cols-4 gap-2">
+    <Masonry :games="games" />
+    <!-- <div class="bg-gradient-to-r from-rose via-violet-fonce to-turquoise py-12">
+      <ul class="grid grid-cols-5 gap-2">
         <li v-for="game in arcade" :key="game.id">
-          <a href="">
+          <a :href="game.video" target="_blank">
             <img :src="game.image" :alt="game.title" class="rounded-2xl"
           /></a>
         </li>
       </ul>
-    </div>
+    </div> -->
     <Footer />
   </div>
 </template>
