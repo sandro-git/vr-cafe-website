@@ -5,5 +5,8 @@ description: En commencant dans un coin calme dans une petite ville, les offres
   d'emploi commencent a affluer du monde entier. Guidez les pietons grossiers,
   les conducteurs impatients et la meteorite occassionelle avant la rage sur la
   route.
-image: /img/header.jpeg
+image: /img/header-12-.jpg
+editeur: synthesys
+nbrDeJoueur: "1"
+video: https://svrstorage.s3.amazonaws.com/gameassets/svr_6149/trailer.webm
 ---
