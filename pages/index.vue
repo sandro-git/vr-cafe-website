@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header />
+    <HeaderApp />
     <img class="text-center" src="~assets/header.jpg" alt="VR headset" />
     <Prices />
     <div class="bg-gray-900 py-12">
@@ -97,6 +97,7 @@ import arvi from '~/assets/ARVI.jpeg'
 import wanadev from '~/assets/wanadev.jpeg'
 
 export default {
+  name: 'App',
   async asyncData({ $content }) {
     const games = await $content('games').fetch()
     const arcade = await $content('arcade').fetch()

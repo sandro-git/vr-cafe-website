@@ -106,7 +106,6 @@
               Arcade
             </nuxt-link>
           </div>
-
           <MenuIcon />
         </div>
       </div>

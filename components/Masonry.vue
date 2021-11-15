@@ -18,7 +18,7 @@
 import VueMasonryWall from 'vue-masonry-wall'
 
 export default {
-  name: 'Mansonry',
+  name: 'MansonryLayout',
   components: { VueMasonryWall },
   props: {
     games: {

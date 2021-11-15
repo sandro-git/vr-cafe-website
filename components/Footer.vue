@@ -130,6 +130,7 @@
 <script>
 import GoogleMap from './GoogleMap.vue'
 export default {
+  name: 'FooterApp',
   components: { GoogleMap },
 }
 </script>

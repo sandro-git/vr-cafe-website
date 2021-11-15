@@ -27,7 +27,9 @@
 </template>
 
 <script>
-export default {}
+export default {
+  name: 'BaseButton',
+}
 </script>
 
 <style>

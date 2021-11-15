@@ -20,7 +20,7 @@
             {{ game.description }}.
           </p>
         </div>
-        <Button />
+        <BaseButton />
       </div>
     </div>
     <!-- If pagination is needed -->
@@ -39,6 +39,7 @@ import { Swiper, Navigation, Pagination, Autoplay } from 'swiper'
 import 'swiper/swiper-bundle.min.css'
 
 export default {
+  name: 'BaseSlider',
   props: {
     backgroundUrl: {
       type: String,
