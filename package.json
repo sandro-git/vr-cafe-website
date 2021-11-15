@@ -14,7 +14,6 @@
     "@nuxt/content": "^1.15.0",
     "@nuxtjs/axios": "^5.13.6",
     "core-js": "^3.15.1",
-    "netlify-cms-widget-inline-select": "^1.5.0",
     "nuxt": "^2.15.7",
     "swiper": "6.8.4",
     "vue-masonry-wall": "^0.3.2"
