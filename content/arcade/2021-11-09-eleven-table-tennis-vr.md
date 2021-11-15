@@ -1,10 +1,9 @@
 ---
 title: ELEVEN TABLE TENNIS VR
 date: 2021-11-09T10:21:46.440Z
-description: A toxic outbreak has been unleashed, mutating the local wildlife!
-  Pair up with your friends and take on the deadly ooze and its disgusting
-  dwellers. Clear the swamplands with super-powered weapons - from
-  physics-defying beam guns to homemade revolvers. Hold on tight, this rides
-  about to get bumpy!
-image: /img/header.jpeg
+description: tournoi de tennis de table en vr pin pong
+image: /img/header-25-.jpg
+editeur: synthesys
+nbrDeJoueur: "1"
+video: https://svrstorage.s3.amazonaws.com/gameassets/svr_98/trailer.webm
 ---
