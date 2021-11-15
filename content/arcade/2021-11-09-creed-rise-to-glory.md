@@ -6,5 +6,8 @@ description: Est-ce que vous avez ce qu'il faut pour devenir un champion? Suivez
   au monde dans cet intense expérience de box cinématique. Avec la nouvelle
   technologie Phantom Melee pour des combat de mêlée impressionnant en VR, vous
   vous entrainerez, combattrez, et gagnerez comme un Creed.
-image: /img/header.jpeg
+image: /img/header-8-.jpg
+editeur: synthesys
+nbrDeJoueur: "1"
+video: https://svrstorage.s3.amazonaws.com/gameassets/svr_1440/trailer.webm
 ---
