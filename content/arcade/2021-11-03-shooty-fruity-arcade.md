@@ -6,6 +6,7 @@ description: scanner, servir et emballer pendant que vous tirez pour défendre
   possible avec la VR et le contrôle de mouvement. scanner! tirez! recommencer!
 image: /img/header-28-.jpg
 editeur: synthesys
-nbrDeJoueur: "1"
+nbrDeJoueur:
+  - "1"
 video: https://www.youtube.com/embed/rZj58kRopHs
 ---
