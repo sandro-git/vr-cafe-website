@@ -8,6 +8,8 @@ description: Est-ce que vous avez ce qu'il faut pour devenir un champion? Suivez
   vous entrainerez, combattrez, et gagnerez comme un Creed.
 image: /img/header-8-.jpg
 editeur: synthesys
-nbrDeJoueur: "1"
+nbrDeJoueur:
+  - "1"
+  - "2"
 video: https://www.youtube.com/embed/Fx3G9mxHUHk
 ---
