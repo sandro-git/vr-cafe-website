@@ -6,5 +6,5 @@ description: une bagarre multijoueurs en réalité virtuelle se déroule dans un
 image: /img/header-27-.jpg
 editeur: synthesys
 nbrDeJoueur: 2'
-video: https://youtu.be/8zo-pHL6jk4
+video: https://www.youtube.com/embed/8zo-pHL6jk4
 ---
