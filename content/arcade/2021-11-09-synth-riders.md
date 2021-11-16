@@ -8,5 +8,5 @@ description: Synth Riders est uen alternative rythmique VR dansante freestyle
 image: /img/header-14-.jpg
 editeur: synthesys
 nbrDeJoueur: "1"
-video: https://svrstorage.s3.amazonaws.com/gameassets/svr_2144/trailer.webm
+video: https://www.youtube.com/embed/jSj3YUKpw8A
 ---
