@@ -7,5 +7,5 @@ description: Space Pirate Trainer est l'entraineur officiel des aspirants
 image: /img/header-13-.jpg
 editeur: synthesys
 nbrDeJoueur: "1"
-video: https://svrstorage.s3.amazonaws.com/gameassets/svr_15/trailer.webm
+video: https://www.youtube.com/embed/ID9iyiWsZTU
 ---
