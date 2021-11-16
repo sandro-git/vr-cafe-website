@@ -9,5 +9,5 @@ description: Est-ce que vous avez ce qu'il faut pour devenir un champion? Suivez
 image: /img/header-8-.jpg
 editeur: synthesys
 nbrDeJoueur: "1"
-video: https://svrstorage.s3.amazonaws.com/gameassets/svr_1440/trailer.webm
+video: https://www.youtube.com/embed/Fx3G9mxHUHk
 ---
