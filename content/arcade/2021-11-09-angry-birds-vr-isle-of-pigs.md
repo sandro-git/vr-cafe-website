@@ -6,5 +6,5 @@ description: "Rejoingnez Red, Chuck, Bomb et Les Bleus pour sauver l'œuf voler
 image: /img/header2-2-.jpg
 editeur: synthesys
 nbrDeJoueur: "1"
-video: https://svrstorage.s3.amazonaws.com/gameassets/svr_2547/trailer.webm
+video: https://www.youtube.com/embed/3wDkTb1_E8Q
 ---

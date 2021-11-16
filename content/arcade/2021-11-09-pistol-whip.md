@@ -6,6 +6,7 @@ description: Pistol Whip est un jeu de tir d'action et de rythme addictif.
   musiques entrainantes pour devenir le héro de légende ultime.
 image: /img/header-2-.jpg
 editeur: synthesys
-nbrDeJoueur: "1"
+nbrDeJoueur:
+  - "1"
 video: https://www.youtube.com/embed/d62thmCpUU0
 ---

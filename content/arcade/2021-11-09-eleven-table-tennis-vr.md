@@ -5,5 +5,5 @@ description: tournoi de tennis de table en vr ping pong
 image: /img/header-25-.jpg
 editeur: synthesys
 nbrDeJoueur: "1"
-video: https://svrstorage.s3.amazonaws.com/gameassets/svr_98/trailer.webm
+video: https://www.youtube.com/embed/z1s9D-Sx4zU
 ---
