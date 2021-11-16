@@ -6,5 +6,5 @@ description: 10 Sports en 1 Jeu ! quel type d'activités sportives sera la plus
 image: /img/header-é.jpeg
 editeur: synthesys
 nbrDeJoueur: "1"
-video: https://svrstorage.s3.amazonaws.com/gameassets/svr_6160/trailer.webm
+video: https://youtu.be/H4EifD2Yroo
 ---
