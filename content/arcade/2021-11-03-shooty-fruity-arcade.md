@@ -7,5 +7,5 @@ description: scanner, servir et emballer pendant que vous tirez pour défendre
 image: /img/header-28-.jpg
 editeur: synthesys
 nbrDeJoueur: "1"
-video: https://svrstorage.s3.amazonaws.com/gameassets/svr_2319/trailer.webm
+video: https://www.youtube.com/embed/rZj58kRopHs
 ---
