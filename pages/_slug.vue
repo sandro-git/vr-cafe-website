@@ -1,12 +1,12 @@
 <template>
-  <div class="bg-gray-500">
+  <div class="bg-gradient-to-r from-rose via-violet-fonce to-turquoise">
     <HeaderGames />
     <div
       v-for="game in games"
       :key="game.slug"
       class="grid grid-cols-1 auto-rows-min"
     >
-      <h1 class="text-8xl text-center p-8">{{ game.title }}</h1>
+      <h1 class="text-4xl lg:text-8xl text-center p-8">{{ game.title }}</h1>
 
       <div class="aspect-w-16 aspect-h-6 mx-auto w-2/3 my-12">
         <iframe
@@ -19,7 +19,7 @@
           allowfullscreen
         ></iframe>
       </div>
-      <p class="text-base w-2/3 mx-auto text-center p-8">
+      <p class="text-lg lg:w-2/3 mx-auto text-center p-8">
         {{ game.description }}
       </p>
     </div>
@@ -39,5 +39,4 @@ export default {
 }
 </script>
 
-<style>
-</style>
+<style></style>

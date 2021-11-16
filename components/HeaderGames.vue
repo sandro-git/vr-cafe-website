@@ -15,12 +15,12 @@
         "
       >
         <!-- logo -->
-        <a href="/" class="flex justify-center h-14 lg:h-24">
+        <a href="/" class="flex justify-center h-14 lg:h-24 col-span-2">
           <span class="sr-only">Workflow</span>
           <img class="" src="~assets/VRCAFE_LOGO_OK.png" alt="logo vr café" />
         </a>
         <!-- bouton réserver -->
-        <div class="flex justify-center lg:col-start-2">
+        <div class="flex justify-center lg:col-start-2 col-start-2 my-4">
           <a
             href="reservation.html"
             class="
@@ -40,7 +40,16 @@
           >
         </div>
 
-        <div class="flex justify-center lg:col-start-3">
+        <div
+          class="
+            flex
+            justify-center
+            lg:col-start-3
+            col-start-1
+            row-start-2
+            my-4
+          "
+        >
           <!-- acceuil -->
           <nuxt-link
             key="Solutions"
@@ -72,5 +81,4 @@
 export default {}
 </script>
 
-<style>
-</style>
+<style></style>

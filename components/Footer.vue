@@ -16,7 +16,7 @@
         <!-- logo -->
         <a href="#" class="flex justify-center lg:col-start-2">
           <span class="sr-only">Workflow</span>
-          <img class="h-14" src="~assets/VRCAFE_LOGO_OK.png" alt="" />
+          <img class="h-14" src="~assets/VRCAFE_LOGO_OK.png" alt="logo" />
         </a>
         <!-- reseau sociaux -->
         <MenuIcon class="lg:col-start-3 justify-center" />
@@ -40,7 +40,7 @@
               >Réserver</a
             >
           </div>
-        </div> -->
+        </div>-->
         <!-- adresse etc... -->
         <div
           class="
@@ -70,8 +70,8 @@
                 alt="location icon"
                 class="h-6 w-6 mr-4"
               />
-              2 rue du pilou 66140 <br />
-              canet en rousillon
+              2 rue du pilou 66140
+              <br />canet en rousillon
             </a>
           </div>
           <div class="mt-4">
@@ -135,5 +135,4 @@ export default {
 }
 </script>
 
-<style>
-</style>
+<style></style>
