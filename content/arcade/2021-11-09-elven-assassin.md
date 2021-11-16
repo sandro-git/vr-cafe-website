@@ -9,5 +9,5 @@ description: >-
 image: /img/header-24-.jpg
 editeur: synthesys
 nbrDeJoueur: "4"
-video: https://www.youtube.com/watch?v=D94cNMNyMy4
+video: https://youtu.be/5PHtL1M01Nk
 ---
