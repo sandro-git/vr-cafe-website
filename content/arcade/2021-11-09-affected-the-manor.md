@@ -7,5 +7,5 @@ description: AFFECTED a été élu une des meilleures expérience de réalité
 image: /img/header-.jpeg
 editeur: synthesys
 nbrDeJoueur: "1"
-video: https://svrstorage.s3.amazonaws.com/gameassets/svr_722/trailer.webm
+video: https://www.youtube.com/embed/AqqBT8Bl1BM
 ---
