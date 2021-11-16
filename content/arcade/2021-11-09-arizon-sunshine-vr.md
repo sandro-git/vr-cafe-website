@@ -9,5 +9,5 @@ description: Créer exclusivement pour la VR, Arizona Sunshine vous projette au
 image: /img/header.jpeg
 editeur: synthesys
 nbrDeJoueur: "4"
-video: https://svrstorage.s3.amazonaws.com/gameassets/svr_1371/trailer.webm
+video: https://www.youtube.com/embed/ZOR8xbm16lg
 ---
