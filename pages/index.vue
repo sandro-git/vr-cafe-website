@@ -70,23 +70,15 @@
     </div>
     <Slider
       class="bg-gradient-to-r from-rose via-violet-fonce to-turquoise"
-      :background-url="wanadev"
+      :games="wanadevGames"
     />
     <div class="subtile bg-gray-900 py-12">
       <p class="lg:w-1/2 text-center text-xl text-gray-300 sm:text-2xl">
         SYNTHESIS VR
       </p>
     </div>
-    <Masonry :games="arcade" />
-    <!-- <div class="bg-gradient-to-r from-rose via-violet-fonce to-turquoise py-12">
-      <ul class="grid grid-cols-5 gap-2">
-        <li v-for="game in arcade" :key="game.id">
-          <a :href="game.video" target="_blank">
-            <img :src="game.image" :alt="game.title" class="rounded-2xl"
-          /></a>
-        </li>
-      </ul>
-    </div> -->
+    <Masonry :games="synthGames" />
+    <pre> {{ synthGames }} </pre>
     <Footer />
   </div>
 </template>
@@ -122,6 +114,12 @@ export default {
     },
     arviGames() {
       return this.games.filter((game) => game.editeur === 'arvi')
+    },
+    wanadevGames() {
+      return this.games.filter((arcade) => arcade.editeur === 'wanadev')
+    },
+    synthGames() {
+      return this.games.filter((arcade) => arcade.editeur === 'synthesys')
     },
   },
 }
