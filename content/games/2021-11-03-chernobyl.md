@@ -7,4 +7,12 @@ description: >-2
   1-6 joueurs niveau moyen
 image: /img/screenshot_1-min.jpg
 editeur: arvi
+difficulte: medium
+nbrDeJoueur:
+  - "1"
+  - "2"
+  - "3"
+  - "4"
+  - "5"
+  - "6"
 ---
