@@ -7,5 +7,5 @@ description: The Burning Descent est un jeu de tir de furieux dans lequel
 image: /img/header-3-.jpg
 editeur: synthesys
 nbrDeJoueur: "1"
-video: https://svrstorage.s3.amazonaws.com/gameassets/svr_5139/trailer.webm
+video: https://www.youtube.com/embed/jifaGVRnNlY
 ---

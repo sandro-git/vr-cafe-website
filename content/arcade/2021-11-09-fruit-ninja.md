@@ -5,5 +5,5 @@ description: Entrez dans l'univers Fruit ninja vr
 image: /img/header-23-.jpg
 editeur: synthesys
 nbrDeJoueur: "1"
-video: https://www.youtube.com/embed/xQAcUvpBcIg
+video: https://youtu.be/xQAcUvpBcIg
 ---

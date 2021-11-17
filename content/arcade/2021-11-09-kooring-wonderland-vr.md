@@ -5,6 +5,7 @@ description: Elements magiques, de beaux paysages ainsi qu'un scenario etonnant
   et reveur pour les enfants
 image: /img/header-18-.jpg
 editeur: synthesys
-nbrDeJoueur: "1"
-video: https://svrstorage.s3.amazonaws.com/gameassets/svr_5387/trailer.webm
+nbrDeJoueur:
+  - "1"
+video: https://youtu.be/5PgMQr2cct0
 ---

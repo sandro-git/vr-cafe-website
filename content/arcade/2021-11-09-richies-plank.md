@@ -7,5 +7,5 @@ description: Richie's Plank est une expérience courte que nos visiteurs on
 image: /img/1.-header-capsule.png
 editeur: synthesys
 nbrDeJoueur: "1"
-video: https://svrstorage.s3.amazonaws.com/gameassets/svr_26/trailer.webm
+video: https://www.youtube.com/embed/ZBwjY0kAxUQ
 ---

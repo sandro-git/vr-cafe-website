@@ -9,6 +9,7 @@ description: >-
   choissisez entre des chansons officielle avec des classements et des dizaines d'entrainementprofessionnles ou jouez avec votre musique a l'aide du generateur . Voyez ces calories bruler et votre pouls courrir.
 image: /img/header-5-.jpg
 editeur: synthesys
-nbrDeJoueur: "1"
-video: https://svrstorage.s3.amazonaws.com/gameassets/svr_3441/trailer.webm
+nbrDeJoueur:
+  - "1"
+video: https://www.youtube.com/embed/vVg9XcpMrKM
 ---

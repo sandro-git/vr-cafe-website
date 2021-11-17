@@ -72,15 +72,13 @@ export default {
       modules: [Navigation, Pagination, Autoplay],
 
       // Pagination if needed
-      // pagination: {
-      //   el: '.swiper-pagination',
-      //   type: 'custom',
-      //   clickable: true,
-      // },
-      // Autoplay if needed
-      autoplay: {
-        delay: 3000,
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'custom',
+        clickable: true,
       },
+      // Autoplay if needed
+
       // Navigation arrows if needed
       navigation: {
         hiddenClass: '.swiper-button-hidden',
