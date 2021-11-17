@@ -3,84 +3,30 @@
     <HeaderApp />
     <img class="text-center" src="~assets/header.jpg" alt="VR headset" />
     <Prices />
-    <div class="bg-gray-900 py-12">
-      <h2
-        id="escape"
-        class="
-          sm:text-4xl
-          lg:text-5xl
-          text-3xl
-          font-extrabold
-          bg-gray-900
-          text-white text-center
-          px-4
-          pb-8
-        "
-      >
-        EXPERIENCE ESCAPE GAME VIRTUEL
-      </h2>
-      <div id="escape" class="subtile">
-        <p class="px-4 lg:w-1/2 text-center text-xl text-gray-300 sm:text-2xl">
-          EXCLUSIVITÉ ESCAPE GAME EN RÉALITE VIRTUELLE UBISOFT “IMMERSION
-          TOTALE”
-        </p>
-      </div>
-    </div>
+    <TitleWithSubtitle subtitle="UBISOFT" title="EXPERIENCE ESCAPE GAME VR" />
+
     <Slider
       class="bg-gradient-to-r from-rose via-violet-fonce to-turquoise"
       :games="ubisoftGames"
     />
-    <div class="bg-gray-900 py-12">
-      <div class="subtile pb-8">
-        <p class="lg:w-1/2 text-center text-xl text-gray-300 sm:text-2xl">
-          EXCLUSIVITÉ ESCAPE GAME EN RÉALITE VIRTUELLE UBISOFT “IMMERSION
-          TOTALE”
-        </p>
-      </div>
-      <div class="subtile">
-        <p class="lg:w-1/2 text-center text-xl text-gray-300 sm:text-2xl">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
-          numquam eligendi quos odit doloribus molestiae voluptatum.
-        </p>
-      </div>
-    </div>
+    <Title title="ARVI VR" :exclu="true" />
     <Slider
       class="bg-gradient-to-r from-rose via-violet-fonce to-turquoise"
       :games="arviGames"
     />
-    <div class="bg-gray-900 py-12">
-      <h2
-        class="
-          sm:text-4xl
-          lg:text-5xl
-          text-3xl
-          font-extrabold
-          text-white text-center
-          pb-8
-          px-4
-        "
-      >
-        EXPERIENCE ARCADE VR
-      </h2>
-      <div id="arcade" class="subtile">
-        <p class="lg:w-1/2 text-center text-xl text-gray-300 sm:text-2xl">
-          EXCLUSIVITÉ WANADEV
-        </p>
-      </div>
-    </div>
+    <TitleWithSubtitle subtitle="WANADEV" title="EXPERIENCE ARCADE VR" />
     <Slider
       class="bg-gradient-to-r from-rose via-violet-fonce to-turquoise"
       :games="wanadevGames"
     />
-    <div class="subtile bg-gray-900 py-12">
-      <p class="lg:w-1/2 text-center text-xl text-gray-300 sm:text-2xl">
-        SYNTHESIS VR
-      </p>
-    </div>
+    <Title title="SYNTHESYS" />
     <Masonry
       :games="synthGames"
       class="bg-gradient-to-r from-rose via-violet-fonce to-turquoise"
     />
+    <Title title="PARTENAIRES" />
+    <Slider />
+
     <Footer />
   </div>
 </template>
