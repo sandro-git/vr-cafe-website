@@ -8,7 +8,7 @@ description: Nous sommes au début du 22ème siècle. La société s'est effond
   cyborgs dotés de compétences spéciales, a décidé de voler quelques données
   rares dans les archives d'une société influente. En infiltrant le complexe
   sans être repéré, vous devez vous rendre aux archives et télécharger la
-  mémoire de la pile. Mais cela ne sera pas facile.
+  mémoire de la pile.
 image: /img/arvi_vrcovers_cyberpunk.webp
 editeur: arvi
 difficulte: hard
