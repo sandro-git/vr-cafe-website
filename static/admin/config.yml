@@ -65,3 +65,38 @@ collections:
           options: ['1', '2', '3', '4', '5', '6', '7', '8'],
         }
       - { label: 'Vidéo', name: 'video', widget: 'string' }
+
+  - name: 'culture'
+    label: 'Culture'
+    folder: 'content/culture'
+    format: 'frontmatter'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'markdown' }
+      - { label: 'Image', name: 'image', widget: 'image' }
+      - {
+          label: 'Editeur',
+          name: 'editeur',
+          widget: 'select',
+          options: ['lucic reality'],
+        }
+      - { label: 'Vidéo', name: 'video', widget: 'string' }
+
+  - name: 'partenaires'
+    label: 'partenaires'
+    folder: 'content/partenaires'
+    format: 'frontmatter'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Image', name: 'image', widget: 'image' }
+      
+  

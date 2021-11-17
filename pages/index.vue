@@ -26,9 +26,9 @@
     />
     <TitleWithSubtitle subtitle="LUCID REALITY" title="EXPERIENCE CULTURE" />
 
-    <Slider />
+    <Slider class="bg-gradient-to-r from-rose via-violet-fonce to-turquoise" />
     <Title title="PARTENAIRES" />
-    <Slider />
+    <Slider class="bg-gradient-to-r from-rose via-violet-fonce to-turquoise" />
 
     <Footer />
   </div>
