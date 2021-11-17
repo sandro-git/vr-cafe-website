@@ -77,7 +77,10 @@
         SYNTHESIS VR
       </p>
     </div>
-    <Masonry :games="synthGames" />
+    <Masonry
+      :games="synthGames"
+      class="bg-gradient-to-r from-rose via-violet-fonce to-turquoise"
+    />
     <Footer />
   </div>
 </template>

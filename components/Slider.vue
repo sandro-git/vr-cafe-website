@@ -6,6 +6,7 @@
         :key="game.slug"
         class="swiper-slide space-y-4 p-4"
       >
+        <h2 class="text-2xl text-white text-center">{{ game.title }}</h2>
         <div class="swiper-content aspect-w-3 aspect-h-2 overflow-hidden">
           <nuxt-link :to="game.slug">
             <img
@@ -15,12 +16,14 @@
             />
           </nuxt-link>
         </div>
-        <div class="text-lg">
-          <p class="text-gray-900 my-8 h-40 hidden lg:block overflow-hidden">
+        <!-- <div class="text-lg">
+          <p
+            class="text-gray-900 my-8 max-h-40 hidden lg:block overflow-hidden"
+          >
             {{ game.description }}.
           </p>
-        </div>
-        <BaseButton />
+        </div> -->
+        <!-- <BaseButton /> -->
       </div>
     </div>
     <!-- If pagination is needed -->
@@ -74,7 +77,7 @@ export default {
       // Pagination if needed
       pagination: {
         el: '.swiper-pagination',
-        type: 'custom',
+        type: 'bullets',
         clickable: true,
       },
       // Autoplay if needed
