@@ -11,4 +11,9 @@ description: >-
   The Dagger of Time se déroule dans le cadre de la trilogie Prince of Persia (Sands of Time, Warrior Within, The Two Thrones). Les joueurs sont convoqués à la Forteresse du Temps par Kaileena pour arrêter un mage maléfique. Kaileena restaure et donne le poignard du temps aux joueurs afin qu'ils puissent atteindre la chambre du sablier et l'utiliser pour arrêter les mages.
 image: /img/popdot_mechanical_tower.png
 editeur: ubisoft
+difficulte: hard
+nbrDeJoueur:
+  - "2"
+  - "3"
+  - "4"
 ---
