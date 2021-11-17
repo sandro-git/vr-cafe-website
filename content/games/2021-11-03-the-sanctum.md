@@ -7,4 +7,11 @@ description: >-2
   2/6 joueurs niveau moyen
 image: /img/arvi_vrcovers_sanctum.webp
 editeur: arvi
+difficulte: medium
+nbrDeJoueur:
+  - "2"
+  - "3"
+  - "4"
+  - "5"
+  - "6"
 ---
