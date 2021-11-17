@@ -24,6 +24,9 @@
       :games="synthGames"
       class="bg-gradient-to-r from-rose via-violet-fonce to-turquoise"
     />
+    <TitleWithSubtitle subtitle="LUCID REALITY" title="EXPERIENCE CULTURE" />
+
+    <Slider />
     <Title title="PARTENAIRES" />
     <Slider />
 
