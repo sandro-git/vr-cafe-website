@@ -9,12 +9,11 @@ description: Une cabane abandonnée et délabrée dans les bois. Des toiles
   faible lueur de la bougie... Ou était-ce une illusion de la lumière ?
   Êtes-vous prêt à vaincre vos peurs et à vous plonger dans les secrets de cet
   endroit lugubre ?
-image: /img/arvi_vrcovers_house-of-fear.webp
+image: /img/house_of_fear_6.jpg
 editeur: arvi
 difficulte: easy
 nbrDeJoueur:
-  - "1"
   - "2"
-  - "3"
   - "4"
+video: https://www.youtube.com/embed/2SrCwSXC58M
 ---
