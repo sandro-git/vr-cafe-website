@@ -14,8 +14,6 @@ editeur: arvi
 difficulte: hard
 nbrDeJoueur:
   - "2"
-  - "3"
-  - "4"
-  - "5"
   - "6"
+video: https://www.youtube.com/embed/03nVD1Zye18
 ---
