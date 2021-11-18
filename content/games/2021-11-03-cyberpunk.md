@@ -9,7 +9,7 @@ description: Nous sommes au début du 22ème siècle. La société s'est effond
   rares dans les archives d'une société influente. En infiltrant le complexe
   sans être repéré, vous devez vous rendre aux archives et télécharger la
   mémoire de la pile.
-image: /img/arvi_vrcovers_cyberpunk.webp
+image: /img/cyberpunk_7.jpg
 editeur: arvi
 difficulte: hard
 nbrDeJoueur:
