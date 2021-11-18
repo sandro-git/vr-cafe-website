@@ -25,7 +25,7 @@
       <!-- bouton réserver -->
       <div class="flex justify-center lg:col-start-2 col-start-2 my-4">
         <nuxt-link
-          :game-id="link"
+          :game="link"
           :to="'/reservation/' + link"
           class="
             inline-block
