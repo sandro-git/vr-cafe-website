@@ -13,5 +13,5 @@ difficulte: medium
 nbrDeJoueur:
   - "2"
   - "6"
-video: https://youtu.be/3P0hES8sQBU
+video: https://www.youtube.com/embed/3P0hES8sQBU
 ---
