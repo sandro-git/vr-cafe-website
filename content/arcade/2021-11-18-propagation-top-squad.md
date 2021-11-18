@@ -9,5 +9,5 @@ editeur: wanadev
 nbrDeJoueur:
   - "1"
   - "8"
-video: https://youtu.be/pud0uf8f0PA
+video: https://www.youtube.com/embed/pud0uf8f0PA
 ---
