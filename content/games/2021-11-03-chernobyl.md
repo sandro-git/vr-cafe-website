@@ -11,10 +11,7 @@ image: /img/screenshot_1-min.jpg
 editeur: arvi
 difficulte: medium
 nbrDeJoueur:
-  - "1"
   - "2"
-  - "3"
-  - "4"
-  - "5"
   - "6"
+video: https://youtu.be/3P0hES8sQBU
 ---
