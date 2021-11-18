@@ -9,7 +9,7 @@ description: Les services secrets ont localisé et neutralisé un terroriste con
   complexes. Vous avez été recommandé comme spécialiste de ces casse-têtes, et
   les services secrets vous ont aidé à infiltrer la cour. La suite dépendra de
   vous. Saurez-vous déjouer tous les pièges et éviter une attaque nucléaire ?
-image: /img/arvi_vrcovers_mission-sigma.webp
+image: /img/missionsigma_5.webp
 editeur: arvi
 difficulte: easy
 nbrDeJoueur:
