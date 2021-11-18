@@ -8,14 +8,11 @@ description: La station de recherche secrète, «Asgard», est en orbite autour 
   les trajectoires orbitales. Que cache cette station sans vie et où est passé
   son équipage ? C'est à vous de trouver des réponses ou de mourir dans le plus
   grand désastre de l 'histoire de l'humanité.
-image: /img/arvi_vrcovers_signal-lost.webp
+image: /img/sl_10.jpg
 editeur: arvi
 difficulte: medium
 nbrDeJoueur:
   - "1"
-  - "2"
-  - "3"
-  - "4"
-  - "5"
   - "6"
+video: https://youtu.be/HDChRVS6XSc
 ---
