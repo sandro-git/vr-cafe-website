@@ -24,8 +24,9 @@
       </a>
       <!-- bouton réserver -->
       <div class="flex justify-center lg:col-start-2 col-start-2 my-4">
-        <a
-          href="reservation.html"
+        <nuxt-link
+          :game-id="link"
+          :to="'/reservation/' + link"
           class="
             inline-block
             bg-white
@@ -39,7 +40,7 @@
             text-indigo-600
             hover:bg-indigo-50
           "
-          >Réserver</a
+          >Réserver</nuxt-link
         >
       </div>
       <!-- Retour -->
@@ -79,7 +80,14 @@
 </template>
 
 <script>
-export default {}
+export default {
+  props: {
+    link: {
+      type: String,
+      default: '',
+    },
+  },
+}
 </script>
 
 <style></style>

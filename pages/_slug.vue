@@ -1,6 +1,6 @@
 <template>
   <div class="bg-gradient-to-r from-rose via-violet-fonce to-turquoise">
-    <HeaderGames />
+    <HeaderGames :link="$route.params.slug" />
     <div
       v-for="game in games"
       :key="game.slug"

@@ -37,6 +37,7 @@ collections:
           multiple: true,
           options: ['1', '2', '3', '4', '5', '6'],
         }
+      - { label: 'Vidéo', name: 'video', widget: 'string' }
 
   - name: 'arcade'
     label: 'Arcade'
