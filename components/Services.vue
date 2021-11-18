@@ -13,7 +13,7 @@
             lg:text-5xl
           "
         >
-          NOS TARIFS EXPERIENCES “VR”
+          NOS SERVICES
         </p>
         <p
           class="
@@ -63,7 +63,7 @@
                         id="tier-hobby"
                         class="text-center text-2xl font-medium text-gray-900"
                       >
-                        Arcade VR
+                        Anniversaires - EVJ - EVF
                       </h3>
                       <div class="mt-4 flex items-center justify-center">
                         <span
@@ -226,36 +226,7 @@
               "
             >
               <div class="relative z-10 rounded-lg shadow-xl">
-                <div
-                  class="
-                    pointer-events-none
-                    absolute
-                    inset-0
-                    rounded-lg
-                    border-2 border-indigo-600
-                  "
-                  aria-hidden="true"
-                ></div>
-                <div class="absolute inset-x-0 top-0 transform translate-y-px">
-                  <div class="flex justify-center transform -translate-y-1/2">
-                    <span
-                      class="
-                        inline-flex
-                        rounded-full
-                        bg-indigo-600
-                        px-4
-                        py-1
-                        text-sm
-                        font-semibold
-                        tracking-wider
-                        uppercase
-                        text-white
-                      "
-                    >
-                      Le plus populaire
-                    </span>
-                  </div>
-                </div>
+                <!-- tarif et titre team building -->
                 <div class="bg-white rounded-t-lg px-6 pt-12 pb-10">
                   <div>
                     <h3
@@ -267,7 +238,7 @@
                         sm:-mx-6
                       "
                     >
-                      Escape Game VR
+                      Team Building
                     </h3>
                     <div class="mt-4 flex items-center justify-center">
                       <span
@@ -302,6 +273,7 @@
                     </div>
                   </div>
                 </div>
+                <!-- description team building -->
                 <div
                   class="
                     border-t-2 border-gray-100
@@ -492,7 +464,7 @@
                         id="tier-scale"
                         class="text-center text-2xl font-medium text-gray-900"
                       >
-                        Culture VR
+                        Carte Cadeau
                       </h3>
                       <div class="mt-4 flex items-center justify-center">
                         <span
@@ -649,7 +621,7 @@
 
 <script>
 export default {
-  name: 'BasePrices',
+  name: 'BaseServices',
 }
 </script>
 

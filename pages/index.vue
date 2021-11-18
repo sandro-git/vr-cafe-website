@@ -3,8 +3,12 @@
     <HeaderApp />
     <img class="text-center" src="~assets/header.jpg" alt="VR headset" />
     <Prices />
-    <TitleWithSubtitle subtitle="UBISOFT" title="EXPERIENCE ESCAPE GAME VR" />
-
+    <Services />
+    <TitleWithSubtitle
+      id="escape"
+      subtitle="UBISOFT"
+      title="EXPERIENCE ESCAPE GAME VR"
+    />
     <Slider
       class="bg-gradient-to-r from-rose via-violet-fonce to-turquoise"
       :games="ubisoftGames"
@@ -14,7 +18,11 @@
       class="bg-gradient-to-r from-rose via-violet-fonce to-turquoise"
       :games="arviGames"
     />
-    <TitleWithSubtitle subtitle="WANADEV" title="EXPERIENCE ARCADE VR" />
+    <TitleWithSubtitle
+      id="arcade"
+      subtitle="WANADEV"
+      title="EXPERIENCE ARCADE VR"
+    />
     <Slider
       class="bg-gradient-to-r from-rose via-violet-fonce to-turquoise"
       :games="wanadevGames"
@@ -24,12 +32,20 @@
       :games="synthGames"
       class="bg-gradient-to-r from-rose via-violet-fonce to-turquoise"
     />
-    <TitleWithSubtitle subtitle="LUCID REALITY" title="EXPERIENCE CULTURE" />
-
-    <Slider class="bg-gradient-to-r from-rose via-violet-fonce to-turquoise" />
-    <Title title="PARTENAIRES" />
-    <Slider class="bg-gradient-to-r from-rose via-violet-fonce to-turquoise" />
-
+    <TitleWithSubtitle
+      id="culture"
+      subtitle="LUCID REALITY"
+      title="EXPERIENCE CULTURE"
+    />
+    <Slider
+      :games="culture"
+      class="bg-gradient-to-r from-rose via-violet-fonce to-turquoise"
+    />
+    <Title id="partenaires" title="PARTENAIRES" />
+    <Slider
+      :games="partenaires"
+      class="bg-gradient-to-r from-rose via-violet-fonce to-turquoise"
+    />
     <Footer />
   </div>
 </template>
@@ -44,9 +60,13 @@ export default {
   async asyncData({ $content }) {
     const games = await $content('games').fetch()
     const arcade = await $content('arcade').fetch()
+    const partenaires = await $content('partenaires').fetch()
+    const culture = await $content('culture').fetch()
     return {
       games,
       arcade,
+      partenaires,
+      culture,
     }
   },
   data() {

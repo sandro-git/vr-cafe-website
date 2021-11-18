@@ -14,7 +14,7 @@
     >
       <span class="border-b-2 border-white">{{ title }}</span>
     </h2>
-    <div id="arcade" class="subtile bg-gray-800 flex items-center">
+    <div class="subtile bg-gray-800 flex items-center">
       <p
         class="
           lg:w-1/2

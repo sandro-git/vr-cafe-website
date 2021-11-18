@@ -12,7 +12,7 @@ module.exports = {
         "blue-fonce":"#338aca",
         "violet-clair":"#864a9a",
         "violet-fonce":"#534d9d",
-        "turquoise":"#2dbceb"
+        turquoise:"#2dbceb"
       },
     },
   },

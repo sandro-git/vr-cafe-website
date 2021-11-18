@@ -6,9 +6,11 @@
       :key="game.slug"
       class="grid grid-cols-1 auto-rows-min"
     >
-      <h1 class="text-4xl lg:text-8xl text-center p-8">{{ game.title }}</h1>
+      <h1 class="text-4xl lg:text-6xl text-center p-8 text-white">
+        {{ game.title }}
+      </h1>
 
-      <div class="aspect-w-16 aspect-h-6 mx-auto w-2/3 my-12">
+      <div class="aspect-w-16 aspect-h-6 mx-auto w-2/3 my-12 border">
         <iframe
           width="560"
           height="315"

@@ -105,6 +105,20 @@
             >
               Arcade
             </nuxt-link>
+            <!-- culture -->
+            <nuxt-link
+              key="Docs"
+              to="#culture"
+              class="
+                text-base
+                lg:text-2xl
+                font-medium
+                text-white
+                hover:text-indigo-50
+              "
+            >
+              Culture
+            </nuxt-link>
           </div>
           <MenuIcon />
         </div>

@@ -1,4 +1,4 @@
-module.exports = {
+export default{
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
@@ -16,6 +16,9 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+    ],
+    script:[
+      {src:"https://widgets.regiondo.net/catalog/v1/catalog-widget.min.js"}
     ]
   },
 
