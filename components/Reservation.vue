@@ -1,12 +1,12 @@
 <template>
   <div class="">
-    <slot> </slot>
+    <slot></slot>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'BaseReservation',
+  name: 'BaseReservationPage',
 }
 </script>
 
