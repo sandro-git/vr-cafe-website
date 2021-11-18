@@ -16,4 +16,5 @@ nbrDeJoueur:
   - "2"
   - "3"
   - "4"
+video: https://www.youtube.com/embed/7bvSTBwLbRg
 ---
