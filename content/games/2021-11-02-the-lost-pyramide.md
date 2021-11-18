@@ -13,5 +13,6 @@ difficulte: easy
 nbrDeJoueur:
   - "2"
   - "4"
+video: https://www.youtube.com/embed/ZaEIvjdwCMI
 ---
 LE CORPS DU MESSAGE JE NE SAIS PAS SI JE VAIS LE GARDER
