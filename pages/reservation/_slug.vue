@@ -16,7 +16,7 @@
 export default {
   name: 'BaseReservation',
   props: {
-    gameId: {
+    game: {
       type: String,
       default: '',
     },
@@ -34,5 +34,4 @@ export default {
 }
 </script>
 
-<style>
-</style>
+<style></style>
