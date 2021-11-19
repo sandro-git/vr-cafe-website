@@ -186,7 +186,7 @@
                     <div class="mt-8">
                       <div class="rounded-lg shadow-md">
                         <a
-                          href="revervation.arcade.html"
+                          href="reservation.arcade.html"
                           class="
                             block
                             w-full
@@ -653,5 +653,4 @@ export default {
 }
 </script>
 
-<style>
-</style>
+<style></style>
