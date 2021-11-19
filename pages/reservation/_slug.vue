@@ -7,7 +7,7 @@
       locale="fr_FR"
     ></product-details-widget>
     <pre>
-        {{ gameId }}
+        {{ productId }}
     </pre>
   </div>
 </template>
@@ -15,21 +15,13 @@
 <script>
 export default {
   name: 'BaseReservation',
-  props: {
-    game: {
-      type: String,
-      default: '',
-    },
-  },
   data() {
     return {
-      productIds: [{ '2021-11-02-the-lost-pyramide': 193370 }],
+      productIds: [
+        { '2021-11-02-the-lost-pyramide': 193370 },
+        { '2021-11-03-beyonds-medusa-gate': 192876 },
+      ],
     }
-  },
-  computed: {
-    productId() {
-      return this.productIds.filter((id) => id === this.gameId)
-    },
   },
 }
 </script>
