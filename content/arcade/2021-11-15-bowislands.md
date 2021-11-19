@@ -8,5 +8,5 @@ editeur: wanadev
 nbrDeJoueur:
   - "2"
   - "6"
-video: https://drive.google.com/drive/folders/1LpfraTa_fz6P7xEFWk3lmKWYiK_TDK3p
+video: https://youtu.be/qC5LeAVzDlM
 ---

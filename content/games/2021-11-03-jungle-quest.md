@@ -8,13 +8,11 @@ description: >-
 
 
   Vous allez d'abord devoir résoudre une série d'énigmes et explorer le monde mystérieux des îles volantes.
-image: /img/arvi_vrcovers_jungle-quest.webp
+image: /img/junglequest_1.jpg
 editeur: arvi
 difficulte: medium
 nbrDeJoueur:
   - "2"
-  - "3"
-  - "4"
-  - "5"
   - "6"
+video: https://www.youtube.com/embed/5xytZTgFoog
 ---
