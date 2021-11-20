@@ -16,7 +16,13 @@
         <!-- logo -->
         <a href="#" class="flex justify-center lg:col-start-2">
           <span class="sr-only">Workflow</span>
-          <img class="h-14" src="~assets/VRCAFE_LOGO_OK.png" alt="logo" />
+          <img
+            class="h-14"
+            src="~assets/VRCAFE_LOGO_OK.png"
+            alt="logo"
+            height="56px"
+            width="87.5px"
+          />
         </a>
         <!-- reseau sociaux -->
         <MenuIcon class="lg:col-start-3 justify-center" />
@@ -70,6 +76,8 @@
                 src="~assets/location-arrow-solid.svg"
                 alt="location icon"
                 class="h-6 w-6 mr-4"
+                width="24px"
+                height="24px"
               />
               2 rue du pilou 66140
               <br />canet en rousillon
@@ -95,6 +103,8 @@
                 src="~assets/phone-solid.svg"
                 class="h-6 w-6 mr-4"
                 alt="phone icon"
+                width="24px"
+                height="24px"
               />
               06 71 41 06 77
             </a>
@@ -118,7 +128,9 @@
               <img
                 src="~assets/envelope-regular.svg"
                 alt="envelope icon"
-                class="h-6 w-6 mr-4"
+                class="h-6 w-6mr-4"
+                width="24px"
+                height="24px"
               />
               contact@vr-cafe.fr
             </a>
@@ -126,15 +138,12 @@
         </div>
       </div>
     </div>
-    <GoogleMap />
   </footer>
 </template>
 
 <script>
-import GoogleMap from './GoogleMap.vue'
 export default {
   name: 'FooterApp',
-  components: { GoogleMap },
 }
 </script>
 

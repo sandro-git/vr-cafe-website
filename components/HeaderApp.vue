@@ -17,7 +17,13 @@
         <!-- logo -->
         <a href="/" class="flex justify-center h-14 lg:h-24">
           <span class="sr-only">Workflow</span>
-          <img class="" src="~assets/VRCAFE_LOGO_OK.png" alt="logo vr café" />
+          <img
+            class=""
+            src="~assets/VRCAFE_LOGO_OK.webp"
+            alt="logo vr café"
+            width="150px"
+            height="96px"
+          />
         </a>
         <!-- bouton réserver -->
         <div class="flex justify-center lg:col-start-3">
@@ -131,5 +137,4 @@
 export default {}
 </script>
 
-<style>
-</style>
+<style></style>

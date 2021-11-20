@@ -7,7 +7,7 @@
     <template #default="{ item }">
       <div class="item">
         <nuxt-link :to="item.slug">
-          <nuxt-img :src="item.image" alt="item.title" />
+          <img :src="item.image" alt="item.title" />
         </nuxt-link>
       </div>
     </template>

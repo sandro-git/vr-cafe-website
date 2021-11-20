@@ -9,20 +9,15 @@
         <h2 class="text-2xl text-white text-center">{{ game.title }}</h2>
         <div class="swiper-content aspect-w-3 aspect-h-2 overflow-hidden">
           <nuxt-link :to="game.slug">
-            <nuxt-img
+            <img
               class="object-cover shadow-lg h-64 rounded-lg w-full"
               :src="game.image"
               :alt="game.title"
+              height="256"
+              width="331"
             />
           </nuxt-link>
         </div>
-        <!-- <div class="text-lg">
-          <p
-            class="text-gray-900 my-8 max-h-40 hidden lg:block overflow-hidden"
-          >
-            {{ game.description }}.
-          </p>
-        </div> -->
         <!-- <BaseButton /> -->
       </div>
     </div>
