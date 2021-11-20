@@ -24,8 +24,9 @@
             sm:mt-5 sm:text-2xl
           "
         >
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
-          numquam eligendi quos odit doloribus molestiae voluptatum.
+          Notre bar-café, notre terrasse extérieure et nos 220 m2 nous
+          permettent d'acceuillir tout au long de l'année vos évènemens de
+          groupe . Nous organisons vos évènement sur mesure selon votre budget.
         </p>
       </div>
     </div>
@@ -56,46 +57,16 @@
                   lg:rounded-none lg:rounded-l-lg
                 "
               >
-                <div class="flex-1 flex flex-col">
-                  <div class="bg-white px-6 py-10">
+                <div class="flex-1 flex flex-col border-2 border-indigo-600">
+                  <div class="bg-white px-6 py-6">
                     <div>
                       <h3
                         id="tier-hobby"
-                        class="text-center text-2xl font-medium text-gray-900"
+                        class="text-center text-2xl font-bold text-gray-900"
                       >
-                        Anniversaires - EVJ - EVF
+                        <span class="uppercase">Anniversaires </span><br />
+                        EVJ - EVF
                       </h3>
-                      <div class="mt-4 flex items-center justify-center">
-                        <span
-                          class="
-                            px-3
-                            flex
-                            items-start
-                            text-6xl
-                            tracking-tight
-                            text-gray-900
-                          "
-                        >
-                          <span
-                            class="
-                              self-center
-                              text-xl
-                              font-medium
-                              text-gray-500
-                              pr-2
-                            "
-                          >
-                            A partir de :
-                          </span>
-                          <span class="font-extrabold"> 18 </span>
-                          <span class="mt-2 mr-2 text-4xl font-medium">
-                            €
-                            <span class="text-xl font-medium text-gray-500">
-                              /pers
-                            </span>
-                          </span>
-                        </span>
-                      </div>
                     </div>
                   </div>
                   <div
@@ -106,8 +77,6 @@
                       p-6
                       bg-gray-50
                       sm:p-10
-                      lg:p-6
-                      xl:p-10
                     "
                   >
                     <ul role="list" class="space-y-4">
@@ -131,7 +100,7 @@
                           </svg>
                         </div>
                         <p class="ml-3 text-base font-medium text-gray-500">
-                          Un choix d'environ 30 jeux
+                          Suprise Originale
                         </p>
                       </li>
 
@@ -155,7 +124,7 @@
                           </svg>
                         </div>
                         <p class="ml-3 text-base font-medium text-gray-500">
-                          Solo ou Multijoueurs
+                          Vidéos souvenir
                         </p>
                       </li>
 
@@ -179,14 +148,14 @@
                           </svg>
                         </div>
                         <p class="ml-3 text-base font-medium text-gray-500">
-                          Et je sais plus trop quoi
+                          Activité Inédite
                         </p>
                       </li>
                     </ul>
                     <div class="mt-8">
                       <div class="rounded-lg shadow-md">
                         <a
-                          href="revervation.arcade.html"
+                          href="#"
                           class="
                             block
                             w-full
@@ -203,7 +172,7 @@
                           "
                           aria-describedby="tier-hobby"
                         >
-                          Réservez
+                          Nous contacter
                         </a>
                       </div>
                     </div>
@@ -233,44 +202,14 @@
                       id="tier-growth"
                       class="
                         text-center text-3xl
-                        font-semibold
+                        font-bold
                         text-gray-900
                         sm:-mx-6
+                        uppercase
                       "
                     >
                       Team Building
                     </h3>
-                    <div class="mt-4 flex items-center justify-center">
-                      <span
-                        class="
-                          px-3
-                          flex
-                          items-start
-                          text-6xl
-                          tracking-tight
-                          text-gray-900
-                          sm:text-6xl
-                        "
-                      >
-                        <span
-                          class="
-                            self-center
-                            m
-                            text-2xl
-                            font-medium
-                            text-gray-500
-                            pr-2
-                          "
-                        >
-                          A partir de :
-                        </span>
-                        <span class="font-extrabold"> 25 </span>
-                        <span class="mt-2 mr-2 text-4xl font-medium"> €</span>
-                      </span>
-                      <span class="text-2xl font-medium text-gray-500">
-                        /pers
-                      </span>
-                    </div>
                   </div>
                 </div>
                 <!-- description team building -->
@@ -306,7 +245,7 @@
                         </svg>
                       </div>
                       <p class="ml-3 text-base font-medium text-gray-500">
-                        Plus de 12 Escape Game VR
+                        Esprit d'equipe, cohésion
                       </p>
                     </li>
 
@@ -330,7 +269,7 @@
                         </svg>
                       </div>
                       <p class="ml-3 text-base font-medium text-gray-500">
-                        A partir de 8 ans
+                        Communication, Collaboration
                       </p>
                     </li>
 
@@ -354,7 +293,7 @@
                         </svg>
                       </div>
                       <p class="ml-3 text-base font-medium text-gray-500">
-                        En partenariat avec Ubisoft Escape Game
+                        Jusqu'a 8 joueurs dans la même jeu
                       </p>
                     </li>
 
@@ -378,7 +317,7 @@
                         </svg>
                       </div>
                       <p class="ml-3 text-base font-medium text-gray-500">
-                        Et je sais plus
+                        Découverte de la réalité virtuelle
                       </p>
                     </li>
 
@@ -402,14 +341,14 @@
                         </svg>
                       </div>
                       <p class="ml-3 text-base font-medium text-gray-500">
-                        La non plus
+                        Un bon moment à partager
                       </p>
                     </li>
                   </ul>
                   <div class="mt-10">
                     <div class="rounded-lg shadow-md">
                       <a
-                        href="reservation.escape.html"
+                        href="#footer"
                         class="
                           block
                           w-full
@@ -427,7 +366,7 @@
                         "
                         aria-describedby="tier-growth"
                       >
-                        Réserver
+                        Nous Contacter
                       </a>
                     </div>
                   </div>
@@ -449,54 +388,26 @@
             >
               <div
                 class="
-                  h-full
                   flex flex-col
                   rounded-lg
                   shadow-lg
                   overflow-hidden
-                  lg:rounded-none lg:rounded-r-lg
+                  lg:rounded-r-lg
                 "
               >
-                <div class="flex-1 flex flex-col">
+                <div class="flex-1 flex flex-col border-2 border-indigo-600">
                   <div class="bg-white px-6 py-10">
                     <div>
                       <h3
                         id="tier-scale"
-                        class="text-center text-2xl font-medium text-gray-900"
+                        class="
+                          text-center text-2xl text-gray-900
+                          uppercase
+                          font-bold
+                        "
                       >
                         Carte Cadeau
                       </h3>
-                      <div class="mt-4 flex items-center justify-center">
-                        <span
-                          class="
-                            px-3
-                            flex
-                            items-start
-                            text-6xl
-                            tracking-tight
-                            text-gray-900
-                          "
-                        >
-                          <span
-                            class="
-                              self-center
-                              pr-2
-                              text-xl
-                              font-medium
-                              text-gray-500
-                            "
-                          >
-                            A partir de :
-                          </span>
-                          <span class="font-extrabold"> 5 </span>
-                          <span class="mt-2 mr-2 text-4xl font-medium">
-                            €
-                          </span>
-                        </span>
-                        <span class="text-xl font-medium text-gray-500">
-                          /pers
-                        </span>
-                      </div>
                     </div>
                   </div>
                   <div
@@ -532,7 +443,7 @@
                           </svg>
                         </div>
                         <p class="ml-3 text-base font-medium text-gray-500">
-                          Découvrer La culture sous un nouvel angle.
+                          Valable 1 ans
                         </p>
                       </li>
 
@@ -556,7 +467,7 @@
                           </svg>
                         </div>
                         <p class="ml-3 text-base font-medium text-gray-500">
-                          Immerger vous dans les tableau de Monet
+                          Utillisable en plusieur fois
                         </p>
                       </li>
 
@@ -580,14 +491,14 @@
                           </svg>
                         </div>
                         <p class="ml-3 text-base font-medium text-gray-500">
-                          Dans la peau d'une femme préhistorique
+                          Un cadeau Original
                         </p>
                       </li>
                     </ul>
                     <div class="mt-8">
                       <div class="rounded-lg shadow-md">
                         <a
-                          href="#"
+                          href="#footer"
                           class="
                             block
                             w-full
@@ -625,5 +536,4 @@ export default {
 }
 </script>
 
-<style>
-</style>
+<style></style>

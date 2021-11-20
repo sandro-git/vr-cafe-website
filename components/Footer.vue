@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-gray-900 w-full z-20">
+  <footer id="footer" class="bg-gray-900 w-full z-20">
     <div class="max-w-7xl mx-auto lg:flex" aria-label="Top">
       <div
         class="
@@ -64,6 +64,7 @@
                 items-center
               "
               target="_blank"
+              rel="noopener"
             >
               <img
                 src="~assets/location-arrow-solid.svg"
@@ -88,6 +89,7 @@
                 items-center
               "
               target="_blank"
+              rel="noopener"
             >
               <img
                 src="~assets/phone-solid.svg"
@@ -111,6 +113,7 @@
                 items-center
               "
               target="_blank"
+              rel="noopener"
             >
               <img
                 src="~assets/envelope-regular.svg"

@@ -14,6 +14,9 @@ module.exports = {
         "violet-fonce":"#534d9d",
         turquoise:"#2dbceb"
       },
+      backgroundImage:{
+        header:"url(~assets/header.jpg)"
+      }
     },
   },
   variants: {},

@@ -13,7 +13,7 @@
             lg:text-5xl
           "
         >
-          NOS TARIFS EXPERIENCES “VR”
+          NOS TARIFS
         </p>
         <p
           class="
@@ -24,8 +24,12 @@
             sm:mt-5 sm:text-2xl
           "
         >
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
-          numquam eligendi quos odit doloribus molestiae voluptatum.
+          Une activité adapté à partir <span class="uppercase"> de 8 ans</span>.
+          Nous proposons des
+          <span class="uppercase">expériences</span>
+          variées en Réalité Virtuelle. <br v-if="sm" /> Un catalogue de Jeux évolutif tous au
+          long de l'année. </br>Entre amis, en famille, entre collaborateur, tentez
+          l'expérience VR Café. 
         </p>
       </div>
     </div>
@@ -179,7 +183,7 @@
                           </svg>
                         </div>
                         <p class="ml-3 text-base font-medium text-gray-500">
-                          Et je sais plus trop quoi
+                          Casque HTC Vive Pro
                         </p>
                       </li>
                     </ul>
@@ -334,7 +338,7 @@
                         </svg>
                       </div>
                       <p class="ml-3 text-base font-medium text-gray-500">
-                        Plus de 12 Escape Game VR
+                        Plus de 15 Escape Game VR
                       </p>
                     </li>
 
@@ -358,7 +362,7 @@
                         </svg>
                       </div>
                       <p class="ml-3 text-base font-medium text-gray-500">
-                        A partir de 8 ans
+                        Immersion Totale
                       </p>
                     </li>
 
@@ -406,7 +410,7 @@
                         </svg>
                       </div>
                       <p class="ml-3 text-base font-medium text-gray-500">
-                        Et je sais plus
+                        Escape Game ARVI VR en exclusivité
                       </p>
                     </li>
 
@@ -430,7 +434,7 @@
                         </svg>
                       </div>
                       <p class="ml-3 text-base font-medium text-gray-500">
-                        La non plus
+                        Casque HTC Vive Pro
                       </p>
                     </li>
                   </ul>
@@ -560,7 +564,7 @@
                           </svg>
                         </div>
                         <p class="ml-3 text-base font-medium text-gray-500">
-                          Découvrer La culture sous un nouvel angle.
+                          La culture autrement.
                         </p>
                       </li>
 
@@ -584,7 +588,7 @@
                           </svg>
                         </div>
                         <p class="ml-3 text-base font-medium text-gray-500">
-                          Immerger vous dans les tableau de Monet
+                          L'oeuvre de Monet
                         </p>
                       </li>
 
@@ -608,7 +612,7 @@
                           </svg>
                         </div>
                         <p class="ml-3 text-base font-medium text-gray-500">
-                          Dans la peau d'une femme préhistorique
+                          Une femme préhistorique
                         </p>
                       </li>
                     </ul>
