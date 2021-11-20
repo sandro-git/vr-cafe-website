@@ -20,8 +20,8 @@
             class="h-14"
             src="~assets/VRCAFE_LOGO_OK.png"
             alt="logo"
-            height="56px"
-            width="87.5px"
+            height="96px"
+            width="150px"
           />
         </a>
         <!-- reseau sociaux -->

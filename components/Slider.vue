@@ -1,20 +1,18 @@
 <template>
   <div class="swiper w-full h-full overflow-hidden relative bg-cover">
-    <div class="swiper-wrapper flex h-60 my-8">
+    <div class="swiper-wrapper flex my-8">
       <div
         v-for="game in games"
         :key="game.slug"
-        class="swiper-slide space-y-4 p-4"
+        class="swiper-slide space-y-2 p-4"
       >
         <h2 class="text-2xl text-white text-center">{{ game.title }}</h2>
-        <div class="swiper-content aspect-w-3 aspect-h-2 overflow-hidden">
+        <div class="swiper-content aspect-w-16 aspect-h-9 overflow-hidden">
           <nuxt-link :to="game.slug">
             <img
-              class="object-cover shadow-lg h-64 rounded-lg w-full"
+              class="object-cover shadow-lg w-full h-full rounded-lg"
               :src="game.image"
               :alt="game.title"
-              height="256"
-              width="331"
             />
           </nuxt-link>
         </div>
@@ -61,7 +59,6 @@ export default {
       slidesPerView: 1,
       keyboard: true,
       grabCursor: true,
-      spaceBetween: 20,
 
       // @see https://swiperjs.com/swiper-api#parameters
       direction: 'horizontal',
@@ -72,7 +69,7 @@ export default {
       // Pagination if needed
       pagination: {
         el: '.swiper-pagination',
-        type: 'bullets',
+        type: 'custom',
         clickable: true,
       },
       // Autoplay if needed
@@ -87,11 +84,9 @@ export default {
       breakpoints: {
         429: {
           slidesPerView: 3,
-          spaceBetween: 20,
         },
-        1200: {
+        1600: {
           slidesPerView: 4,
-          spaceBetween: 20,
         },
       },
     })
