@@ -1,7 +1,7 @@
 <template>
   <div>
     <HeaderApp />
-    <img class="text-center" src="~assets/header.jpg" alt="VR headset" />
+    <img class="text-center" src="~assets/header.webp" alt="VR headset" />
     <Prices />
     <Services />
     <TitleWithSubtitle

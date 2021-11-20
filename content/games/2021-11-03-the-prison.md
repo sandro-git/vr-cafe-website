@@ -8,7 +8,7 @@ description: " La dernière opération majeure a fait tomber plusieurs têtes
   besoin de tout le courage, toute la ruse et toute la chance que vous possédez
   pour recouvrer votre liberté et laver votre nom. Et poursuivre votre combat
   pour la justice.2/6 joueurs niveau difficile"
-image: /img/er_prison_2.jpg
+image: /img/er_prison_2.webp
 editeur: arvi
 difficulte: hard
 nbrDeJoueur:

@@ -10,7 +10,7 @@ description: >-
 
 
   le jeu est entierement jouable seul egalement
-image: /img/header-29-.jpg
+image: /img/header-29-.webp
 editeur: synthesys
 nbrDeJoueur: "2"
 video: https://svrstorage.s3.amazonaws.com/gameassets/svr_1511/trailer.webm

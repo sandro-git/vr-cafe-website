@@ -9,7 +9,7 @@ description: Deux ou quatre joueurs font équipe et disposent de 60 minutes pour
   expérience à l'échelle de la pièce. Les joueurs commencent l'aventure en
   choisissant leur avatar parmi six personnages différents et peuvent le
   personnaliser avec des accessoires grecs antiques.
-image: /img/www.ubisoftescapegames.com-beyondmedusagate-lobby-1000x600.jpg
+image: /img/www.ubisoftescapegames.com-beyondmedusagate-lobby-1000x600.webp
 editeur: ubisoft
 difficulte: medium
 nbrDeJoueur:

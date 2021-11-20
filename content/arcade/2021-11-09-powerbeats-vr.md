@@ -7,7 +7,7 @@ description: >-
 
 
   choissisez entre des chansons officielle avec des classements et des dizaines d'entrainementprofessionnles ou jouez avec votre musique a l'aide du generateur . Voyez ces calories bruler et votre pouls courrir.
-image: /img/header-5-.jpg
+image: /img/header-5-.webp
 editeur: synthesys
 nbrDeJoueur:
   - "1"

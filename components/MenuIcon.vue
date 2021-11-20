@@ -7,7 +7,7 @@
         rel="noopener noreferrer"
       >
         <img
-          src="~assets/f_logo_RGB-White_100.png"
+          src="~assets/f_logo_RGB-White_100.webp"
           alt="facebook logo"
           class="h-6 sm:h-8"
         />
@@ -42,7 +42,7 @@
         rel="noopener noreferrer"
       >
         <img
-          src="~assets/Tripadvisor.png"
+          src="~assets/Tripadvisor.webp"
           alt="facebook logo"
           class="h-6 sm:h-8"
         />

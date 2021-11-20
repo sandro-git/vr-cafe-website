@@ -11,7 +11,7 @@ description: >-
   étant les 8 panneaux qui ornent le musée de l’Orangerie à Paris.\
 
   A travers un dialogue entre le peintre et son grand ami, l’homme d’État Georges Clemenceau, l’expérience en réalité virtuelle Claude Monet – l’obsession des Nymphéas emmène le spectateur du musée au jardin de Giverny à travers les saisons, nous fait découvrir son atelier, nous plonge au cœur même du travail de Monet, dans un tourbillon de couleurs. Une expérience immersive et sensorielle dans cette œuvre unique.
-image: /img/nympheas_poster.jpg
+image: /img/nympheas_poster.webp
 editeur: lucic reality
 video: https://player.vimeo.com/video/301580716?h=948b9094f4
 ---

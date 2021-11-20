@@ -10,7 +10,7 @@ description: Noël est menacé ! Le Père Noël a été pris dans un blizzard ; 
   travailler et pourquoi les cadeaux ne sont pas distribués aux enfants. Et avec
   le meilleur renne du Père Noël, dépêchez-vous de faire redonner vie au premier
   sapin de Noël !
-image: /img/christmas_3.jpg
+image: /img/christmas_3.webp
 editeur: arvi
 difficulte: easy
 nbrDeJoueur:

@@ -14,7 +14,7 @@ description: >-
 
 
   Non, les femmes n’étaient pas à la cueillette pendant que les hommes chassaient. Hommes et femmes ensemble assuraient les besoins de leur clan.
-image: /img/lady_sapiens_1-1.jpg
+image: /img/lady_sapiens_1-1.webp
 editeur: lucic reality
 video: .https://youtu.be/0lBd2rMU3cg
 ---

@@ -8,7 +8,7 @@ description: >-
 
 
   Vous allez d'abord devoir résoudre une série d'énigmes et explorer le monde mystérieux des îles volantes.
-image: /img/junglequest_1.jpg
+image: /img/junglequest_1.webp
 editeur: arvi
 difficulte: medium
 nbrDeJoueur:

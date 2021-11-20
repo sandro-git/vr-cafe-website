@@ -6,7 +6,7 @@ description: Créer exclusivement pour la VR, Arizona Sunshine vous projette au
   réels, explorez librement un monde post-apocalyptique, et testez vos capacités
   de survie en VR - Remettre les mort vivant a leur place n'as jamais été aussi
   palpitant
-image: /img/header.jpeg
+image: /img/header.webp
 editeur: synthesys
 nbrDeJoueur: "4"
 video: https://youtu.be/ZOR8xbm16lg
