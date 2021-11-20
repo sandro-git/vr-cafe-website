@@ -27,7 +27,7 @@
           Une activité adapté à partir <span class="uppercase"> de 8 ans</span>.
           Nous proposons des
           <span class="uppercase">expériences</span>
-          variées en Réalité Virtuelle. <br v-if="sm" /> Un catalogue de Jeux évolutif tous au
+          variées en Réalité Virtuelle.  Un catalogue de Jeux évolutif tous au
           long de l'année. </br>Entre amis, en famille, entre collaborateur, tentez
           l'expérience VR Café. 
         </p>
