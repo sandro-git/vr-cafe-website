@@ -17,11 +17,10 @@
         <a href="#" class="flex justify-center lg:col-start-2">
           <span class="sr-only">Workflow</span>
           <img
-            class="h-14"
             src="~assets/VRCAFE_LOGO_OK.png"
             alt="logo"
             height="96px"
-            width="150px"
+            width="100px"
           />
         </a>
         <!-- reseau sociaux -->

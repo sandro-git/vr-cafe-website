@@ -15,16 +15,12 @@
       aria-label="Top"
     >
       <!-- logo -->
-      <a
-        href="/"
-        class="flex justify-center h-14 lg:h-24 col-span-2 lg:col-span-1"
-      >
+      <a href="/" class="flex justify-center col-span-2 lg:col-span-1">
         <span class="sr-only">Workflow</span>
         <img
-          class=""
           src="~assets/VRCAFE_LOGO_OK.webp"
           alt="logo vr café"
-          width="150px"
+          width="100px"
           height="96px"
         />
       </a>
