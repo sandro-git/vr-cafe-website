@@ -21,6 +21,7 @@
             alt="logo"
             height="96px"
             width="100px"
+            class="h-full"
           />
         </a>
         <!-- reseau sociaux -->

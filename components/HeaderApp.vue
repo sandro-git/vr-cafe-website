@@ -15,13 +15,14 @@
         "
       >
         <!-- logo -->
-        <a href="/" class="flex justify-center">
+        <a href="/" class="flex justify-center overflow-hidden">
           <span class="sr-only">Workflow</span>
           <img
             src="~assets/VRCAFE_LOGO_OK.webp"
             alt="logo vr café"
             width="100px"
             height="96px"
+            class="h-full"
           />
         </a>
         <!-- bouton réserver -->
