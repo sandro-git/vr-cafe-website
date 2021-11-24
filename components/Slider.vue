@@ -9,10 +9,11 @@
         <h2 class="text-2xl text-white text-center">{{ game.title }}</h2>
         <div class="swiper-content aspect-w-16 aspect-h-9 overflow-hidden">
           <nuxt-link :to="game.slug">
-            <img
+            <nuxt-img
               class="object-cover shadow-lg w-full h-full rounded-lg"
               :src="game.image"
               :alt="game.title"
+              sizes="xs:100vw lg:100vw xl:100vw"
             />
           </nuxt-link>
         </div>
