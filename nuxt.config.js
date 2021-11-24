@@ -13,6 +13,7 @@ export default{
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'La plus grande et L\'unique des pyrénées-orientales dédiée à la Réalité Vituelle. Nouvelle génération d\'escape game en VR' },
       { name: 'format-detection', content: 'telephone=no' },
+      {name:'facebook-domain-verification' ,content:"4ydruyoekxigb8i7dsfysxg8m7n59b"}
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
