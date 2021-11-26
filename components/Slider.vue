@@ -13,7 +13,7 @@
               class="object-cover shadow-lg w-full h-full rounded-lg"
               :src="game.image"
               :alt="game.title"
-              sizes="xs:100vw lg:33vw xl:25vw"
+              sizes="xs:100vw lg:50vw xl:50vw"
             />
           </nuxt-link>
         </div>
