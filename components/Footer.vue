@@ -14,7 +14,7 @@
       "
     >
       <!-- logo -->
-      <a href="#" class="flex justify-center w-2/3 mx-auto">
+      <a href="#" class="flex justify-center w-2/3 mx-auto lg:h-full">
         <span class="sr-only">Workflow</span>
         <nuxt-img
           src="VRCAFE_LOGO_OK.webp"
@@ -127,7 +127,7 @@
             <img
               src="~assets/envelope-regular.svg"
               alt="envelope icon"
-              class="h-6 w-6mr-4"
+              class="h-6 w-6 mr-4"
               width="24px"
               height="24px"
             />
