@@ -14,7 +14,7 @@
       "
     >
       <!-- logo -->
-      <a href="#" class="flex justify-center col-span-2 lg:col-span-1 h-full">
+      <a href="#" class="flex justify-center w-2/3 mx-auto">
         <span class="sr-only">Workflow</span>
         <nuxt-img
           src="VRCAFE_LOGO_OK.webp"

@@ -3,7 +3,7 @@
   <header class="bg-gray-900 lg:h-40 w-full z-20">
     <nav
       class="
-        max-h-40
+        lg:max-h-40
         w-full
         py-6
         grid grid-cols-2 grid-rows-2
@@ -16,7 +16,7 @@
       aria-label="Top"
     >
       <!-- logo -->
-      <a href="/" class="flex justify-center col-span-2 lg:col-span-1 h-full">
+      <a href="/" class="flex justify-center lg:col-span-1 lg:h-full h-2/3">
         <span class="sr-only">Workflow</span>
         <nuxt-img
           src="VRCAFE_LOGO_OK.webp"

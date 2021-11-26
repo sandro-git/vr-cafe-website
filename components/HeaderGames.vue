@@ -3,7 +3,8 @@
   <header class="bg-gray-900 lg:h-40 w-full z-20">
     <nav
       class="
-        max-h-40
+        max-h-48
+        lg:max-h-40
         w-full
         py-6
         grid grid-cols-2 grid-rows-2
