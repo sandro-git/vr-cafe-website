@@ -3,7 +3,7 @@
     <HeaderApp />
     <nuxt-img
       class="text-center"
-      src="~assets/header.webp"
+      src="/header.webp"
       alt="VR headset"
       sizes="xs:100vw lg:100vw xl:100vw"
     />

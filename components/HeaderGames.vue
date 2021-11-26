@@ -1,8 +1,9 @@
 <template>
   <!-- This example requires Tailwind CSS v2.0+ -->
-  <header class="bg-gray-900 w-full z-20">
+  <header class="bg-gray-900 lg:h-40 w-full z-20">
     <nav
       class="
+        max-h-40
         w-full
         py-6
         grid grid-cols-2 grid-rows-2
@@ -15,13 +16,13 @@
       aria-label="Top"
     >
       <!-- logo -->
-      <a href="/" class="flex justify-center col-span-2 lg:col-span-1">
+      <a href="/" class="flex justify-center col-span-2 lg:col-span-1 h-full">
         <span class="sr-only">Workflow</span>
-        <img
-          src="~assets/VRCAFE_LOGO_OK.webp"
+        <nuxt-img
+          src="VRCAFE_LOGO_OK.webp"
           alt="logo vr café"
-          width="100px"
-          height="96px"
+          sizes="xs:100vw"
+          class="h-full"
         />
       </a>
       <!-- bouton réserver -->
