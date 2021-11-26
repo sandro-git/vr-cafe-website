@@ -4,10 +4,11 @@
     class="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-4 gap-2 p-2"
   >
     <nuxt-link v-for="(game, id) in games" :key="id" :to="game.slug">
-      <img
+      <nuxt-img
         :src="game.image"
         :alt="game.title"
         class="w-full h-full rounded-lg"
+        sizes="sm:100vw lg:33vw xl:25vw"
       />
     </nuxt-link>
   </div>
