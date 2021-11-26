@@ -17,12 +17,13 @@
         <!-- logo -->
         <a href="/" class="flex justify-center overflow-hidden">
           <span class="sr-only">Workflow</span>
-          <img
+          <nuxt-img
             src="~assets/VRCAFE_LOGO_OK.webp"
             alt="logo vr café"
             width="100px"
             height="96px"
             class="h-full"
+            sizes="xl:160px"
           />
         </a>
         <!-- bouton réserver -->

@@ -1,7 +1,12 @@
 <template>
   <div>
     <HeaderApp />
-    <img class="text-center" src="~assets/header.webp" alt="VR headset" />
+    <nuxt-img
+      class="text-center"
+      src="~assets/header.webp"
+      alt="VR headset"
+      sizes="xs:100vw lg:100vw xl:100vw"
+    />
     <Prices />
     <Services />
     <TitleWithSubtitle
