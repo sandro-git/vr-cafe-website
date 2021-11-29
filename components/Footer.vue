@@ -1,7 +1,9 @@
 <template>
-  <footer id="footer" class="bg-gray-900 w-full z-20 flex">
+  <footer id="footer" class="w-full flex">
     <div
       class="
+        bg-gray-900
+        z-30
         lg:h-40
         w-full
         py-6
