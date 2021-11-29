@@ -24,7 +24,7 @@
             <p class="ml-3 font-medium text-white truncate">
               <span class="md:hidden"> Nos cartes cadeaux sont là! </span>
               <span class="hidden md:inline">
-                oye! oye ! Nos cartes cadeaux sont là!
+                oh! oh! oh! Nos cartes cadeaux sont là!
               </span>
             </p>
           </div>
@@ -38,7 +38,7 @@
             "
           >
             <a
-              href="#"
+              href="reservation-carte-cadeau.html"
               class="
                 flex
                 items-center
