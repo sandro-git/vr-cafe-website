@@ -30,6 +30,7 @@
           {{ joueur }}
         </p>
         <img class="h-6 mx-2" src="~assets/users-light.svg" alt="user icon" />
+        <p class="uppercase">{{ game.difficulte }}</p>
       </div>
       <div class="aspect-w-16 aspect-h-6 mx-auto w-2/3 my-12 border">
         <iframe
