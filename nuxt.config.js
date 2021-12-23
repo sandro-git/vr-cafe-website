@@ -42,6 +42,8 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     '@nuxt/image',
+    // analytics
+    '@nuxtjs/google-analytics'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -63,4 +65,14 @@ export default {
   image: {
     
   },
+  googleAnalytics: {
+    // Options
+    id:process.env.GOOGLE_ANALYTICS_ID
+  },
+  publicRuntimeConfig: {
+    googleAnalytics: {
+      id: process.env.GOOGLE_ANALYTICS_ID
+    }
+  }
 }
+
