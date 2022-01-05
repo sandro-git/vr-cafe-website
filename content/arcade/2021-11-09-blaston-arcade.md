@@ -7,7 +7,7 @@ description: >-
 
 
   entrainement tactique
-image: /img/header2.webp
+image: /img/header2.jpg
 editeur: synthesys
 nbrDeJoueur: "2"
 video: https://youtu.be/Ns0vUcMlpa8
