@@ -67,7 +67,7 @@
               hover:text-indigo-50
             "
           >
-            Acceuil
+            Accueil
           </nuxt-link>
           <!-- tarifs -->
           <nuxt-link
