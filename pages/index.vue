@@ -52,7 +52,6 @@
       class="bg-gradient-to-r from-rose via-violet-fonce to-turquoise"
     />
     <Footer />
-    <BaseBanner />
   </div>
 </template>
 
