@@ -33,7 +33,7 @@
               >
                 <div class="flex-1 flex flex-col">
                   <div class="bg-white px-6 py-10">
-                    <div>
+                    <div class="flex flex-col items-center">
                       <h3
                         id="tier-hobby"
                         class="text-center text-2xl font-medium text-gray-900"
@@ -58,6 +58,11 @@
                           </span>
                         </span>
                       </div>
+                      <h3
+                        class="inline-flex px-4 py-1 rounded-full text-sm font-semibold tracking-wide uppercase bg-indigo-100 text-indigo-600 w-1/2 justify-center mt-6"
+                      >
+                        30 min
+                      </h3>
                     </div>
                   </div>
                   <div
@@ -169,13 +174,15 @@
                   </div>
                 </div>
                 <div class="bg-white rounded-t-lg px-6 pt-12 pb-10">
-                  <div>
+                  <div class="flex flex-col items-center">
                     <h3
                       id="tier-growth"
                       class="text-center text-3xl font-semibold text-gray-900 sm:-mx-6"
                     >
-                      Escape Game VR
+                      <div class="mb-2">Escape Game VR</div>
+                      <div>Arcade VR</div>
                     </h3>
+
                     <div class="mt-4 flex items-center justify-center">
                       <span
                         class="px-3 flex items-start text-6xl tracking-tight text-gray-900 sm:text-6xl"
@@ -192,6 +199,12 @@
                         /pers
                       </span>
                     </div>
+                    <h3
+                      id="tier-standard"
+                      class="inline-flex px-4 py-1 rounded-full text-sm font-semibold tracking-wide uppercase bg-indigo-100 text-indigo-600 w-1/2 justify-center mt-6"
+                    >
+                      1 h
+                    </h3>
                   </div>
                 </div>
                 <div
@@ -340,7 +353,7 @@
               >
                 <div class="flex-1 flex flex-col">
                   <div class="bg-white px-6 py-10">
-                    <div>
+                    <div class="flex flex-col items-center">
                       <h3
                         id="tier-scale"
                         class="text-center text-2xl font-medium text-gray-900"
@@ -365,6 +378,11 @@
                           /pers
                         </span>
                       </div>
+                      <h3
+                        class="inline-flex px-4 py-1 rounded-full text-sm font-semibold tracking-wide uppercase bg-indigo-100 text-indigo-600 w-2/3 justify-center mt-6"
+                      >
+                        à partir de 5 min
+                      </h3>
                     </div>
                   </div>
                   <div

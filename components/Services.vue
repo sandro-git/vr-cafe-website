@@ -219,7 +219,7 @@
                         </svg>
                       </div>
                       <p class="ml-3 text-base font-medium text-gray-500">
-                        Jusqu'a 8 joueurs dans la même jeu
+                        Jusqu'a 7 joueurs dans la même jeu
                       </p>
                     </li>
 
