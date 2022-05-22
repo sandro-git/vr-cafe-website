@@ -8,5 +8,5 @@ description: Nominé pour le jeu 'VR Game of the Year' at the 2021 VR Awards
 image: /img/header-19-.webp
 editeur: synthesys
 nbrDeJoueur: "1"
-video: https://svrstorage.s3.amazonaws.com/gameassets/svr_6700/trailer.webm
+video: https://www.youtube.com/embed/gPG_OG6MkZc
 ---
