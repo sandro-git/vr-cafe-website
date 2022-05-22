@@ -6,5 +6,5 @@ description: Prenez votre fronde et commencer a lancer des boules de neiges sur
 image: /img/header-20-.webp
 editeur: synthesys
 nbrDeJoueur: "1"
-video: https://svrstorage.s3.amazonaws.com/gameassets/svr_5138/trailer.webm
+video: https://www.youtube.com/embed/ra42V3kZ3sA
 ---
