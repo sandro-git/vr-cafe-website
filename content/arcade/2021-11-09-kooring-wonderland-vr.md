@@ -7,5 +7,5 @@ image: /img/header-18-.webp
 editeur: synthesys
 nbrDeJoueur:
   - "1"
-video: https://youtu.be/5PgMQr2cct0
+video: https://www.youtube.com/embed/5PgMQr2cct0
 ---
