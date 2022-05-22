@@ -6,5 +6,5 @@ description: Mettez votre intelligence et votre endurance à l'épreuve dans ce
 image: /img/rawdata_header.webp
 editeur: synthesys
 nbrDeJoueur: 2'
-video: https://svrstorage.s3.amazonaws.com/gameassets/svr_92/trailer.webm
+video: https://www.youtube.com/embed/7MHpEKfRHro
 ---
