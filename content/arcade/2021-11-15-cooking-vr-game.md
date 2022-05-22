@@ -13,5 +13,5 @@ description: >-
 image: /img/header-29-.webp
 editeur: synthesys
 nbrDeJoueur: "2"
-video: https://svrstorage.s3.amazonaws.com/gameassets/svr_1511/trailer.webm
+video: https://www.youtube.com/embed/fbWD5NQhdRI
 ---
