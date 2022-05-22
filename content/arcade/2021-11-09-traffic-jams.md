@@ -8,5 +8,5 @@ description: En commencant dans un coin calme dans une petite ville, les offres
 image: /img/header-12-.webp
 editeur: synthesys
 nbrDeJoueur: "1"
-video: https://svrstorage.s3.amazonaws.com/gameassets/svr_6149/trailer.webm
+video: https://www.youtube.com/embed/IyOywAiSbPk
 ---
