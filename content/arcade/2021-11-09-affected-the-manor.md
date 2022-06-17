@@ -6,6 +6,7 @@ description: AFFECTED a été élu une des meilleures expérience de réalité
   fonctionnalités sans limites à travers le monde.
 image: /img/header-.webp
 editeur: synthesys
-nbrDeJoueur: "1"
+nbrDeJoueur:
+  - "1"
 video: https://www.youtube.com/embed/AqqBT8Bl1BM
 ---
