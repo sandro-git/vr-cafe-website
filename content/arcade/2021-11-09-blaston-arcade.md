@@ -9,6 +9,8 @@ description: >-
   entrainement tactique
 image: /img/header2.jpg
 editeur: synthesys
-nbrDeJoueur: "2"
+nbrDeJoueur:
+  - "2"
+  - "1"
 video: https://www.youtube.com/embed/Ns0vUcMlpa8
 ---
