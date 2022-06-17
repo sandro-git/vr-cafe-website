@@ -14,5 +14,5 @@ difficulte: hard
 nbrDeJoueur:
   - "2"
   - "6"
-video: https://youtu.be/U4sAOszTNz0
+video: https://www.youtube.com/embed/U4sAOszTNz0
 ---
